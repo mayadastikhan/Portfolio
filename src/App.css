@@ -413,5 +413,8 @@ a{
     width: 85%; 
     line-height: 1.3;
   }
+  .bulletPoints{
+    font-size: 3vw;
+  }
 
 }
