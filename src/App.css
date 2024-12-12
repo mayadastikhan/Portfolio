@@ -375,16 +375,17 @@ a{
     margin: 0 auto;
   }
   .heading-nav nav{
-    width: 70%;
-    padding: 20px;
+    width: 100%;
+    padding: 10px 20px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     position: relative;
+    max-width: 500px;
   }
   
   .heading-nav {
-    margin-top: 0 auto;
+    margin: 0 auto;
     gap: 7px;
   }
   .case-study-image {
@@ -406,6 +407,9 @@ a{
     font-size: 3vw;
     width: 85%; 
     line-height: 1.3;
+  }
+  .nameIntro{
+    margin-bottom: 15px;
   }
 
 }
