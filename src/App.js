@@ -63,12 +63,14 @@ function App() {
                   className="case-study-image"
                 />
                 <div className="case-study-details">
-                <button 
-                  onClick={() => window.open('/COGS 13 Final Project Influence on Feline Behavior.pdf', '_blank')}
+                <a 
+                  href="/public/COGS 13 Final Project Influence on Feline Behavior.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
                   className="nav-button feline-research"
                 >
                   FELINE BEHAVIOR RESEARCH
-                </button>
+                </a>
                   <p>03 - EXPERIMENTAL DESIGN - OBSERVATIONAL RESEARCH</p>
                   <p className="description">An observational experiment researching the influence of time on the behavior of felines.</p>
                 </div>
@@ -251,14 +253,16 @@ function App() {
           >
             ABOUT
           </button>
+          <a 
+          href="public/Blue Orange Bright Doodles Colourful Resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className={activeSection === "resume" ? "nav-button active" : "nav-button"}
+        >
+          RESUME
+        </a>
           <button
-            onClick={() => window.open('/Blue Orange Bright Doodles Colourful Resume.pdf', '_blank')}
-            className={activeSection === "resume" ? "nav-button active" : "nav-button"}
-          >
-            RESUME
-          </button>
-          <button
-            onClick={() => (window.location.href = 'mailto:mayadastikham@gmail.com')}
+            onClick={() => (window.location.href = 'mailto:mayadastikhan@gmail.com')}
             className={activeSection === "contact" ? "nav-button active" : "nav-button"}
           >
             CONTACT
