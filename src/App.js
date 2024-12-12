@@ -118,6 +118,7 @@ function App() {
                 hope to make technology more intuitive, accessible, and transformative
                 for users.
               </p>
+              <hr className="divider" />
               <h1 className="interestsHeading">My Interests</h1>
               <p className="bulletPoints">
               𖤓 Fashion<br />
