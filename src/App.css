@@ -365,12 +365,12 @@ a{
 @media (max-width: 600px) {
   .case-studies {
     box-sizing: border-box;
-    padding: 50px;
+    padding: 1rem;
     margin: 0 auto;
   }
 }
 @media (max-width: 600px) {
-  .App {
-    padding: 20px; 
+  .heading-nav {
+    padding: 1rem; 
   }
 }
