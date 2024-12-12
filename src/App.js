@@ -262,17 +262,17 @@ function App() {
           >
             ABOUT
           </button>
-          <a 
+          <a
           href="https://mayadastikhan.github.io/Portfolio/Maya%20Khan%20Resume.pdf" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className={activeSection === "resume" ? "nav-button active" : "nav-button"}
+          className={activeSection === "resume" ? "nav-button active" : "resume-button"}
         >
           RESUME
         </a>
           <button
             onClick={() => (window.location.href = 'mailto:mayadastikhan@gmail.com')}
-            className={activeSection === "contact" ? "nav-button active" : "nav-button"}
+            className="nav-button"
           >
             CONTACT
           </button>
@@ -280,7 +280,7 @@ function App() {
             href="https://www.linkedin.com/in/maya-khan-34779028b/"
             target="_blank"
             rel="noopener noreferrer"
-            className="nav-button linkedin-button"
+            className="linkedin-button"
            >
             LINKEDIN
           </a>

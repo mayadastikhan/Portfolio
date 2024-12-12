@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 
 }
 
-.heading-nav {
+.heading-nav nav{
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
@@ -51,10 +51,39 @@ body::-webkit-scrollbar {
   font-size: 3vw;
   font-weight: 500;
   cursor: pointer;
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  height: 50px;
+  box-sizing: border-box;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .nav-button:hover,
+.nav-button.active {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.linkedin-button, .resume-button,
+.nav-button.active {
+  font-family: 'Magilio', sans-serif;
+  background: none;
+  border: none;
+  color: #E6AF2E;
+  font-size: 3vw;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 10px 10px;
+  height: 50px;
+  box-sizing: border-box; 
+  transition: all 0.3s ease;
+}
+.linkedin-button:hover, .resume-button:hover,
 .nav-button.active {
   font-weight: 700;
   font-size: 1.5rem;
@@ -254,7 +283,7 @@ a{
 .interestsHeading {
   font-family: 'Magilio', sans-serif;
   color: #F45B69;
-  font-size: 3rem;
+  font-size: 4vw;
   margin-bottom: 10px; 
   display: block; 
 }
@@ -335,6 +364,8 @@ a{
 }
 @media (max-width: 600px) {
   .case-studies {
+    box-sizing: border-box;
     padding: 40px;
+    margin: 0 auto;
   }
 }
