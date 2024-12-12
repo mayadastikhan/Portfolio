@@ -368,10 +368,16 @@ a{
     padding: 3rem;
     margin: 0 auto;
   }
-}
-@media (max-width: 600px) {
   .heading-nav {
     margin-top: 0 auto;
     padding: 3rem; 
   }
+  .case-study-image {
+    width: 50%;
+    min-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+  }
 }
+
