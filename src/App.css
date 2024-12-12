@@ -374,6 +374,15 @@ a{
     padding: 3rem;
     margin: 0 auto;
   }
+  .heading-nav nav{
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
   .heading-nav {
     margin-top: 0 auto;
     padding: 3rem; 
