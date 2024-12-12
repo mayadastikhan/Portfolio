@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/mayadastikhan/Portfolio%3E/static/css/main.3ecf36c4.css",
-    "main.js": "/mayadastikhan/Portfolio%3E/static/js/main.689c1636.js",
-    "static/js/488.f30ea4ab.chunk.js": "/mayadastikhan/Portfolio%3E/static/js/488.f30ea4ab.chunk.js",
-    "static/media/Component 1.png": "/mayadastikhan/Portfolio%3E/static/media/Component 1.89a294cc07015dd49fdc.png",
-    "static/media/borderSquiggle.png": "/mayadastikhan/Portfolio%3E/static/media/borderSquiggle.34506b124314f6a4ab42.png",
-    "static/media/borderSquigglePinkLine.png": "/mayadastikhan/Portfolio%3E/static/media/borderSquigglePinkLine.88804a7423799831bfc5.png",
-    "static/media/magilioregular-8mxvg-webfont.woff": "/mayadastikhan/Portfolio%3E/static/media/magilioregular-8mxvg-webfont.e96d61a3fb58c436189a.woff",
-    "static/media/magilioregular-8mxvg-webfont.woff2": "/mayadastikhan/Portfolio%3E/static/media/magilioregular-8mxvg-webfont.0de68296b4323ca5d266.woff2",
-    "index.html": "/mayadastikhan/Portfolio%3E/index.html",
-    "main.3ecf36c4.css.map": "/mayadastikhan/Portfolio%3E/static/css/main.3ecf36c4.css.map",
-    "main.689c1636.js.map": "/mayadastikhan/Portfolio%3E/static/js/main.689c1636.js.map",
-    "488.f30ea4ab.chunk.js.map": "/mayadastikhan/Portfolio%3E/static/js/488.f30ea4ab.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.3a54db43.css",
+    "main.js": "/Portfolio/static/js/main.14a11edc.js",
+    "static/js/488.f30ea4ab.chunk.js": "/Portfolio/static/js/488.f30ea4ab.chunk.js",
+    "static/media/Component 1.png": "/Portfolio/static/media/Component 1.89a294cc07015dd49fdc.png",
+    "static/media/borderSquiggle.png": "/Portfolio/static/media/borderSquiggle.34506b124314f6a4ab42.png",
+    "static/media/borderSquigglePinkLine.png": "/Portfolio/static/media/borderSquigglePinkLine.88804a7423799831bfc5.png",
+    "static/media/magilioregular-8mxvg-webfont.woff": "/Portfolio/static/media/magilioregular-8mxvg-webfont.e96d61a3fb58c436189a.woff",
+    "static/media/magilioregular-8mxvg-webfont.woff2": "/Portfolio/static/media/magilioregular-8mxvg-webfont.0de68296b4323ca5d266.woff2",
+    "index.html": "/Portfolio/index.html",
+    "main.3a54db43.css.map": "/Portfolio/static/css/main.3a54db43.css.map",
+    "main.14a11edc.js.map": "/Portfolio/static/js/main.14a11edc.js.map",
+    "488.f30ea4ab.chunk.js.map": "/Portfolio/static/js/488.f30ea4ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ecf36c4.css",
-    "static/js/main.689c1636.js"
+    "static/css/main.3a54db43.css",
+    "static/js/main.14a11edc.js"
   ]
 }
