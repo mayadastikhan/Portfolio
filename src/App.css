@@ -371,6 +371,7 @@ a{
 }
 @media (max-width: 600px) {
   .heading-nav {
+    margin-top: 0 auto;
     padding: 3rem; 
   }
 }
