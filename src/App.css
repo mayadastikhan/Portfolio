@@ -357,7 +357,7 @@ a{
   }
 
   .p1 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     width: 85%; 
     line-height: 1.3;
   }
@@ -381,12 +381,16 @@ a{
     display: flex;
     justify-content: center;
     position: relative;
-    max-width: 500px;
+    max-width: 400px;
   }
   
   .heading-nav {
     margin: 0 auto;
-    gap: 7px;
+    gap: 5px;
+
+  }
+  .nav-button, .linkedin-button, .resume-button{
+    font-size: 2vw;
   }
   .case-study-image {
     width: 50%;
@@ -397,6 +401,7 @@ a{
   }
   .introHome{
     margin: 20px auto;
+    margin-bottom: 10px;
   }
   .p1 {
     font-size: 4vw;
@@ -407,9 +412,6 @@ a{
     font-size: 3vw;
     width: 85%; 
     line-height: 1.3;
-  }
-  .nameIntro{
-    margin-bottom: 15px;
   }
 
 }
