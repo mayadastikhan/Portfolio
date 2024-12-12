@@ -251,16 +251,20 @@ body::-webkit-scrollbar {
 a{
   text-decoration: none !important;
 }
-linkedin-button {
+.interestsHeading {
   font-family: 'Magilio', sans-serif;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: 500;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  display: inline-block; 
-  text-decoration: none;
+  color: #F45B69;
+  font-size: 3rem;
+  margin-bottom: 10px; 
+  display: block; 
 }
+.bulletPoints {
+  font-family: 'Magilio', sans-serif;
+  font-size: 2vw;
+  color: #E6AF2E;
+  line-height: 1.6;
+}
+
 .case-study-page{
   display: flex;
   flex-direction: column; 
@@ -311,11 +315,6 @@ linkedin-button {
   color: #0073e6;
 }
 
-.linkedin-button:hover {
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-decoration: none !important;
-}
 
 @media (max-width: 768px) {
   .introHome {

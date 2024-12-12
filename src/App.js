@@ -118,6 +118,15 @@ function App() {
                 hope to make technology more intuitive, accessible, and transformative
                 for users.
               </p>
+              <h1 className="interestsHeading">My Interests</h1>
+              <p className="bulletPoints">
+              𖤓 Fashion<br />
+              𖤓 Sustainability<br />
+              𖤓 Art<br />
+              𖤓 Cooking<br />
+              𖤓 Travel<br />
+              𖤓 Volunteering<br />
+              </p>
             </div>
          );
       case "caseStudy1":
