@@ -292,6 +292,7 @@ a{
   font-size: 2vw;
   color: #E6AF2E;
   line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 .case-study-page{
@@ -357,6 +358,11 @@ a{
 
   .p1 {
     font-size: 3vw;
+    width: 85%; 
+    line-height: 1.3;
+  }
+  .p1 {
+    font-size: 2vw;
     width: 85%; 
     line-height: 1.3;
   }
