@@ -64,7 +64,7 @@ function App() {
                 />
                 <div className="case-study-details">
                 <a 
-                  href="/public/COGS 13 Final Project Influence on Feline Behavior.pdf" 
+                  href="https://mayadastikhan.github.io/Portfolio/COGS%2013%20Final%20Project%20Influence%20on%20Feline%20Behavior.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="nav-button feline-research"
@@ -254,7 +254,7 @@ function App() {
             ABOUT
           </button>
           <a 
-          href="public/Blue Orange Bright Doodles Colourful Resume.pdf" 
+          href="https://mayadastikhan.github.io/Portfolio/Maya%20Khan%20Resume.pdf" 
           target="_blank" 
           rel="noopener noreferrer" 
           className={activeSection === "resume" ? "nav-button active" : "nav-button"}
