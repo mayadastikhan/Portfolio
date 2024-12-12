@@ -371,6 +371,7 @@ a{
   .heading-nav {
     margin-top: 0 auto;
     padding: 3rem; 
+    gap: 10px;
   }
   .case-study-image {
     width: 50%;
