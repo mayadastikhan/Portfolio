@@ -401,7 +401,7 @@ a{
   }
   .introHome{
     margin: 20px auto;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .p1 {
     font-size: 4vw;
@@ -416,5 +416,10 @@ a{
   .bulletPoints{
     font-size: 3vw;
   }
+  .nav-button:hover, .resume-button:hover,
+.nav-button.active {
+  font-weight: 700;
+  font-size: 1rem;
+}
 
 }
