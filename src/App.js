@@ -264,7 +264,7 @@ function App() {
             ABOUT
           </button>
           <a
-          href="https://mayadastikhan.github.io/Portfolio/ResumeRedesignPortfolio.pdf" 
+          href="https://mayadastikhan.github.io/Portfolio/MayaKhanResume2025.pdf" 
           target="_blank" 
           rel="noopener noreferrer" 
           className={activeSection === "resume" ? "nav-button active" : "resume-button"}
