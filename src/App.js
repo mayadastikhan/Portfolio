@@ -64,7 +64,7 @@ function App() {
                 />
                 <div className="case-study-details">
                 <a 
-                  href="https://mayadastikhan.github.io/Portfolio/COGS%2013%20Final%20Project%20Influence%20on%20Feline%20Behavior.pdf" 
+                  href="https://docs.google.com/document/d/1MhplTLdrUugZEVedmhA_2ypwYyARs7B58ezdcJgwjY4/edit?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="nav-button feline-research"
