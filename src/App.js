@@ -31,7 +31,7 @@ function App() {
                     onClick={() => setActiveSection("caseStudy1")}
                     className="case-study-title"
                   >
-                    EPIC Software Case Study
+                    EPIC SOFTWARE CASE STUDY
                   </a>
                   <p>01 - UX RESEARCH - UX/UI DESIGN - FIGMA PROTOTYPING</p>
                   <p className="description">Enhancing Epic’s medication ordering system to streamline workflows, reduce errors, and improve efficiency in emergency care.</p>
@@ -137,36 +137,35 @@ function App() {
             <h2>Overview</h2>
             <img src="Component 5.png" className ="case-study-image"/>
             <p>Emergency medicine operates in high-pressure, time-sensitive 
-              conditions, yet electronic health record (EHR) systems like\
-              Epic often create workflow inefficiencies that slow down ER staff 
-              and emergency teams. Our project focused on improving the EMT-to-ER
-              patient handoff process by integrating real-time data sharing, simplifying 
-              patient registration, and streamlining medication ordering to enhance 
-              hospital preparedness in critical situtations.</p>
+              conditions, yet electronic health record (EHR) systems like
+              Epic often create workflow inefficiencies that slow down EMTs, 
+              ER doctors, nurses, medical technicians, and emergency teams. 
+              Our project focused on improving the EMT-to-ER patient handoff 
+              process by integrating real-time data sharing, simplifying 
+              patient registration, and streamlining medication ordering to 
+              enhance hospital preparedness in critical situtations.</p>
              
+            <hr className="divider" />
             <h2>Problem Statement</h2>
-            <p>Task:
-              Ava can quickly put on an outfit that emulates her style and is
-              appropriate for New York City’s weather patterns that day. All
-              she does is slip on her watch in the morning and the app
-              already is synced with her schedule and the weather that day,
-              assembling the perfect outfit for Ava within seconds. She also
-              has the ability to choose from recommended options for each
-              type of clothing to quickly go through all her options of what to
-              wear. It was raining that day, so the app reminds her to take an
-              umbrella as a precaution before she heads out.
+            <p>Emergency room doctors need to quickly capture essential patient data 
+              during time-sensitive situations, but current documentation requirements 
+              force them to choose between thorough record-keeping and immediate patient 
+              care. This trade-off can lead to delayed treatments, increased cognitive 
+              strain, and potential gaps in patient records, ultimately compromising both 
+              efficiency and patient outcomes.
               </p>
+
               <hr className="divider" />
-              <h2>Foot Scale Design</h2>
+              <h2>Research & Insights</h2>
               <img src="Screenshot 2024-12-11 at 9.07.02 PM.png" className ="case-study-image"/>
-              <p>User:
-              Ava is a 32 year-old professional (likely working in a corporate
-              role) who is living in New York City and constantly on the go.
-              She is a fashion-obsessed individual who loves to wear trendy,
-              fun outfits, but is having trouble creating outfits for work in the
-              short amount of time she has before she needs to leave. She
-              never knows what to wear with New York City’s unpredictable
-              weather patterns.
+              <p>To fully understand these challenges, we conducted user interviews and usability 
+              testing with our key stakeholders:
+
+              Dr. Sofia J Dasti (Emergency Physician): Highlighted workflow inefficiencies, cognitive 
+              overload, and the need for real-time patient handoff integration in Epic.
+
+              Kyra Brandt (Epic Software Trainor): Provided insights into how EMTs and hospital staff 
+              use Epic, customization limitations, and areas for UX improvement.
               </p>
               <p>
               Task:
