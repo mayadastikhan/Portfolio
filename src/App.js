@@ -133,21 +133,18 @@ function App() {
       case "caseStudy1":
         return (
           <div className="case-study-page">
-            <h1>EPIC Software: EMT Handoff and Medical Ordering Optimization</h1>
-            <h2>Inch Scale Design</h2>
+            <h1>Epic EMT Handoff and Medical Ordering Optimization</h1>
+            <h2>Overview</h2>
             <img src="Component 5.png" className ="case-study-image"/>
-            <p>User:
-              Ava is a 32 year-old professional (likely working in a corporate
-              role) who is living in New York City and constantly on the go.
-              She is a fashion-conscious individual who loves to wear trendy,
-              fun outfits, but is having trouble creating outfits for work in the
-              short amount of time she has before she needs to leave. She
-              also never knows what to wear with New York City’s
-              unpredictable weather patterns and always finds herself caught
-              in the rain without an umbrella.</p>
-
-
-
+            <p>Emergency medicine operates in high-pressure, time-sensitive 
+              conditions, yet electronic health record (EHR) systems like\
+              Epic often create workflow inefficiencies that slow down ER staff 
+              and emergency teams. Our project focused on improving the EMT-to-ER
+              patient handoff process by integrating real-time data sharing, simplifying 
+              patient registration, and streamlining medication ordering to enhance 
+              hospital preparedness in critical situtations.</p>
+             
+            <h2>Problem Statement</h2>
             <p>Task:
               Ava can quickly put on an outfit that emulates her style and is
               appropriate for New York City’s weather patterns that day. All
