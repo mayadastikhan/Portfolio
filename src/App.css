@@ -302,7 +302,7 @@ a{
   justify-content: flex-start;
   width: 100%;
   max-width: 900px;
-  padding: 0; 
+  padding: 40px 60px;
   margin: 0 auto; 
   text-align: left; 
 }
