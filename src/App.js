@@ -139,6 +139,8 @@ function App() {
              <p>Every second counts in emergency care. We streamlined the EMT-to-ER patient 
               handoff to save doctors and nurses valuable time.</p>
              </header>
+
+             <hr className="divider" />
              <section className="overview">
                 <h2>Overview</h2>
                 <img src="Component 5.png" className ="case-study-image"/>
@@ -185,6 +187,7 @@ function App() {
               </ul>
             </section>
 
+            <hr className="divider" />
             <section className="design">
               <h3>The Solution: A Smarter EMT Handoff Portal</h3>
               <p>We redesigned the **EMT-to-ER patient handoff** to improve speed, clarity, and hospital readiness.</p>
@@ -204,43 +207,31 @@ function App() {
               </ul>
             </section>
 
-              <p>
-            
-              Task:
-              Ava uses the app to quickly assemble a stylish and weather-appropriate 
-              outfit for the day. With just a few taps, she can view curated outfit 
-              recommendations synced with her schedule and the day’s weather. If she 
-              needs inspiration, Ava can upload a photo or choose from Pinterest-like 
-              suggestions to recreate an outfit using items in her closet. </p>
-              <hr className="divider" />
-              <h2>Yard Scale Design</h2>
-              <img src="YardScale.png" className ="case-study-image"/>
-              <p>User:
-              Ava is a 32-year-old professional who works in a corporate
-              setting in New York City and needs to curate stylish, functional
-              outfits for work and other activities. She is constantly on-thego, but she still wants to efficiently create outfits that can
-              withstand New York City’s unpredictable weather and her busy
-              schedule. he values efficiency and practicality while
-              maintaining her sense of style. She is very interested in fashion
-              and always forgets what’s in her closet and doesn’t always
-              know how to style her items.
-              </p>
+            <hr className="divider" />
+            <section className="impact">
+              <h3>⚡ The Impact</h3>
+              <p>By cutting **10+ minutes of wasted time per critical case**, our system allows hospitals to act faster.</p>
+              <ul>
+                <li> <strong>Doctors</strong> can **call in specialists sooner**, preventing delays in trauma & cardiac cases.</li>
+                <li> <strong>Nurses</strong> get **clearer patient data upfront**, allowing faster **room prep & IV setup**.</li>
+                <li> <strong>Techs & Radiologists</strong> receive **early imaging & test requests**, reducing ER congestion.</li>
+                <li> <strong>EMTs</strong> spend **less time on paperwork**, focusing more on **patient care**.</li>
+              </ul>
+            </section>
 
-              <p>Task:
-              Ava checks her screen in the closet while getting ready. The
-              display provides a quick overview of what it would recommend
-              for her to wear based on her selected activity(which is going to
-              work). She can select pieces it recommends and have it
-              continue to suggest other items until she has selected all aspects
-              of her outfit and is happy with her curated outfit. The system
-              saves her outfit to a list of previous outfits which she can
-              always go back to look at to rewear and take inspiration from.
-              She can also browse through her full wardrobe and separate it
-              into categories such as the item of clothing, the season it might
-              pertain to, if it's new, or favorited, etc. Now Ava can be
-              fashionable with ease and she gets to work with enough time to
-              grab a coffee beforehand.
-              </p>
+            <hr className="divider" />
+            <section className="next-steps">
+              <h3>🔜 What’s Next?</h3>
+              <ul>
+                <li> Conduct **more usability testing** with EMTs & ER staff.</li>
+                <li> Explore **real-time patient updates** in the ER dashboard.</li>
+                <li> Integrate **voice-to-text** for hands-free EMT reporting.</li>
+              </ul>
+            </section>
+
+            <footer className="cta">
+              <p>Want to see it in action? <a href="INSERT_FIGMA_LINK">Check out the Figma Prototype</a></p>
+            </footer>
             <button onClick={() => setActiveSection("home")} className="back-button">
               Back to Case Studies →
             </button>
