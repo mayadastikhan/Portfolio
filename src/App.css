@@ -310,7 +310,7 @@ a{
   color: #7AB574;
   font-family: 'Magilio', sans-serif;
   font-size: 6vw;
-  text-align: left;
+  text-align: center;
   margin-bottom: 0rem;
   padding: 40px 60px;
 
@@ -321,6 +321,7 @@ a{
   font-size: 5vw;
   text-align: left;
   margin-bottom: 1rem;
+  padding: 40px 60px;
 }
 
 .case-study-page h3{
@@ -329,6 +330,7 @@ a{
   font-size: 4vw;
   text-align: left;
   margin-bottom: 1rem;
+  padding: 40px 60px;
 }
 
 .case-study-page h4{
@@ -337,6 +339,7 @@ a{
   font-size: 3vw;
   text-align: left;
   margin-bottom: 1rem;
+  padding: 40px 60px;
 }
 
 .case-study-page p,
@@ -345,11 +348,11 @@ a{
   font-family: 'Magilio', sans-serif;
   font-size: 2vw; 
   margin: 20 auto; 
-  padding: 0;
   text-align: left; 
   width: 80%; 
   max-width: 800px; 
   line-height: 1.6; 
+  padding: 40px 60px;
 }
 .nav-button.feline-research {
   font-family: 'Magilio', sans-serif;
