@@ -133,7 +133,7 @@ function App() {
       case "caseStudy1":
         return (
           <div className="case-study-page">
-            <h1>Fashion Forecast</h1>
+            <h1>EPIC Software Case Study</h1>
             <h2>Inch Scale Design</h2>
             <img src="Component 5.png" className ="case-study-image"/>
             <p>User:
