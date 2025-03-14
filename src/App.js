@@ -134,8 +134,10 @@ function App() {
         return (
           <div className="case-study-page">
              <header className="hero">
-             <h1>Epic EMT Handoff and Medical Ordering Optimization</h1>
-             <h2>Improving Emergency Medical Workflows for Faster, More Efficient Care</h2>
+             <h1>Epic EMT Handoff 
+              and Medical Ordering Optimization</h1>
+             <h2>Improving Emergency Medical Workflows for 
+              Faster, More Efficient Care</h2>
              <p>Every second counts in emergency care. We streamlined the EMT-to-ER patient 
               handoff to save doctors and nurses valuable time.</p>
              </header>
@@ -209,7 +211,7 @@ function App() {
 
             <hr className="divider" />
             <section className="impact">
-              <h3>⚡ The Impact</h3>
+              <h3>The Impact</h3>
               <p>By cutting **10+ minutes of wasted time per critical case**, our system allows hospitals to act faster.</p>
               <ul>
                 <li> <strong>Doctors</strong> can **call in specialists sooner**, preventing delays in trauma & cardiac cases.</li>
@@ -221,7 +223,7 @@ function App() {
 
             <hr className="divider" />
             <section className="next-steps">
-              <h3>🔜 What’s Next?</h3>
+              <h3>What’s Next?</h3>
               <ul>
                 <li> Conduct **more usability testing** with EMTs & ER staff.</li>
                 <li> Explore **real-time patient updates** in the ER dashboard.</li>
