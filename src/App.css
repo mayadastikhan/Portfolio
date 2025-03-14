@@ -306,6 +306,17 @@ a{
   margin: 0 auto; 
   text-align: left; 
 }
+.case-study-page hr{
+  width: 100vw; 
+  height: 60px;
+  margin: 20px auto;
+  background-image: url('/public/borderSquigglePinkLine.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-color: transparent;
+  padding: 0px;
+}
 .case-study-page h1{
   color: #7AB574;
   font-family: 'Magilio', sans-serif;
