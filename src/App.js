@@ -31,10 +31,10 @@ function App() {
                     onClick={() => setActiveSection("caseStudy1")}
                     className="case-study-title"
                   >
-                    FASHION FORECAST
+                    EPIC Software Case Study
                   </a>
-                  <p>01 - UI DESIGN - FIGMA PROTOTYPING</p>
-                  <p className="description">Inch, Foot, and Yard Scale for an app to simplify picking out outfits.</p>
+                  <p>01 - UX RESEARCH - UX/UI DESIGN - FIGMA PROTOTYPING</p>
+                  <p className="description">Enhancing Epic’s medication ordering system to streamline workflows, reduce errors, and improve efficiency in emergency care.</p>
                 </div>
               </div>
               <div className="case-study row-right">
@@ -133,7 +133,7 @@ function App() {
       case "caseStudy1":
         return (
           <div className="case-study-page">
-            <h1>EPIC Software Case Study</h1>
+            <h1>EPIC Software: EMT Handoff and Medical Ordering Optimization</h1>
             <h2>Inch Scale Design</h2>
             <img src="Component 5.png" className ="case-study-image"/>
             <p>User:
