@@ -133,32 +133,42 @@ function App() {
       case "caseStudy1":
         return (
           <div className="case-study-page">
-            <h1>Epic EMT Handoff and Medical Ordering Optimization</h1>
-            <h2>Overview</h2>
-            <img src="Component 5.png" className ="case-study-image"/>
-            <p>Emergency medicine operates in high-pressure, time-sensitive 
-              conditions, yet electronic health record (EHR) systems like
-              Epic often create workflow inefficiencies that slow down EMTs, 
-              ER doctors, nurses, medical technicians, and emergency teams. 
-              Our project focused on improving the EMT-to-ER patient handoff 
-              process by integrating real-time data sharing, simplifying 
-              patient registration, and streamlining medication ordering to 
-              enhance hospital preparedness in critical situtations.</p>
-             
+             <header className="hero">
+             <h1>Epic EMT Handoff and Medical Ordering Optimization</h1>
+             <h2>Improving Emergency Medical Workflows for Faster, More Efficient Care</h2>
+             <p>Every second counts in emergency care. We streamlined the EMT-to-ER patient 
+              handoff to save doctors and nurses valuable time.</p>
+             </header>
+             <section className="overview">
+                <h2>Overview</h2>
+                <img src="Component 5.png" className ="case-study-image"/>
+                <p>Emergency medicine operates in high-pressure, time-sensitive 
+                conditions, yet electronic health record (EHR) systems like
+                Epic often create workflow inefficiencies that slow down EMTs, 
+                ER doctors, nurses, medical technicians, and emergency teams. 
+                Our project focused on improving the EMT-to-ER patient handoff 
+                process by integrating real-time data sharing, simplifying 
+                patient registration, and streamlining medication ordering to 
+                enhance hospital preparedness in critical situtations.</p>
+              </section>
+      
             <hr className="divider" />
-            <h2>Problem Statement</h2>
-            <p>Emergency room doctors need to quickly capture essential patient data 
-              during time-sensitive situations, but current documentation requirements 
-              force them to choose between thorough record-keeping and immediate patient 
-              care. This trade-off can lead to delayed treatments, increased cognitive 
-              strain, and potential gaps in patient records, ultimately compromising both 
-              efficiency and patient outcomes.
+            <section className="problem-statement">
+              <h2>The Problem</h2>
+              <p>Emergency room doctors need to quickly capture essential patient data 
+                during time-sensitive situations, but current documentation requirements 
+                force them to choose between thorough record-keeping and immediate patient 
+                care. This trade-off can lead to delayed treatments, increased cognitive 
+                strain, and potential gaps in patient records, ultimately compromising both 
+                efficiency and patient outcomes.
               </p>
+            </section>
 
-              <hr className="divider" />
+            <hr className="divider" />
+            <section className="research">
               <h2>Research & Insights</h2>
               <img src="Screenshot 2024-12-11 at 9.07.02 PM.png" className ="case-study-image"/>
-              <p>To fully understand these challenges, we conducted user interviews and usability 
+              <p>To fully understand these pain points, we conducted user interviews and usability 
               testing with our key stakeholders:
 
               Dr. Sofia J Dasti (Emergency Physician): Highlighted workflow inefficiencies, cognitive 
@@ -167,7 +177,35 @@ function App() {
               Kyra Brandt (Epic Software Trainor): Provided insights into how EMTs and hospital staff 
               use Epic, customization limitations, and areas for UX improvement.
               </p>
+              <ul>
+              <li> <strong>EMTs:</strong> Need a **faster way to send patient data** before arrival.</li>
+              <li> <strong>Doctors:</strong> Lose **10+ minutes per patient** due to **manual data entry & lack of real-time updates**.</li>
+              <li> <strong>Nurses & Techs:</strong> Struggle with **missing info**, causing **delayed lab tests & room prep**.</li>
+              <li> <strong>Current tracking boards:</strong> Don't highlight **EMT patients in transit**, delaying hospital response.</li>
+              </ul>
+            </section>
+
+            <section className="design">
+              <h3>The Solution: A Smarter EMT Handoff Portal</h3>
+              <p>We redesigned the **EMT-to-ER patient handoff** to improve speed, clarity, and hospital readiness.</p>
+              
+              <h4>EMT Handoff Portal</h4>
+              <ul>
+                <li><strong>Auto-detects nearest hospital</strong> & pre-fills details.</li>
+                <li><strong>One-tap patient handoff</strong> that updates the hospital’s tracking board instantly.</li>
+                <li><strong>EMT priority alerts</strong> highlight incoming critical patients.</li>
+              </ul>
+
+              <h4>Medication Ordering System</h4>
+              <ul>
+                <li> **Pre-set dosage selection** for quick orders.</li>
+                <li> **Urgent order bypass** for emergencies.</li>
+                <li> **Auto-fills past prescriptions** for returning patients.</li>
+              </ul>
+            </section>
+
               <p>
+            
               Task:
               Ava uses the app to quickly assemble a stylish and weather-appropriate 
               outfit for the day. With just a few taps, she can view curated outfit 
