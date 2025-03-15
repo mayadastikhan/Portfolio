@@ -295,16 +295,57 @@ a{
   margin-bottom: 20px;
 }
 
-.case-study-page{
+.case-study-page {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-color: white; 
+  background-color: white !important; /* Force white background */
   padding: 5%;
+  box-sizing: border-box;
 }
+
+/* Fixes issue where border color from other pages leaks */
+body.case-study-active {
+  background-color: white !important;
+}
+
+/* Ensure content stays aligned properly */
+.case-study-text {
+  width: 45%;
+  text-align: left;
+}
+
+.case-study-text h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #D64545; /* Red Title */
+  margin-bottom: 10px;
+}
+
+.case-study-text h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2276B8; /* Blue Subtitle */
+  margin-bottom: 20px;
+}
+
+.case-study-text p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.designer-info, .launch-date {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555;
+  margin-top: 15px;
+}
+
+/* Ensure image is properly sized */
 .case-study-image {
   width: 50%;
   display: flex;
@@ -316,69 +357,15 @@ a{
   height: auto;
   object-fit: contain;
 }
-.case-study-page h1,
-.case-study-page h2,
-.case-study-page p,
-.case-study-page ul {
-  text-align: left;
-  width: 80%;
-  max-width: 900px;
-  margin: 0 auto;
-}
 
-.case-study-page h1{
-  color: #DA4F4F;
-  font-family: 'Magilio', sans-serif;
-  font-size: 6vw;
-  margin-bottom: 10px;
-  padding: 40px 60px;
-
-}
 .case-study-text .subtitle {
   font-size: 1.5rem;
   font-weight: 600;
   color: #136896;
   margin-bottom: 20px;
 }
-.case-study-page h2{
-  color: #136896;
-  font-family: 'Magilio', sans-serif;
-  font-size: 5vw;
-  text-align: left;
-  margin-bottom: 1rem;
-  padding: 40px 60px;
-}
 
-.case-study-page h3{
-  color: #000000;
-  font-family: 'Magilio', sans-serif;
-  font-size: 4vw;
-  text-align: left;
-  margin-bottom: 1rem;
-  padding: 40px 60px;
-}
 
-.case-study-page h4{
-  color: #F45B69;
-  font-family: 'Magilio', sans-serif;
-  font-size: 3vw;
-  text-align: left;
-  margin-bottom: 1rem;
-  padding: 40px 60px;
-}
-
-.case-study-page p,
-.case-study-page ul{
-  color: #333;
-  font-family: 'Magilio', sans-serif;
-  font-size: 2vw; 
-  margin: 20 auto; 
-  text-align: left; 
-  width: 80%; 
-  max-width: 800px; 
-  line-height: 1.6; 
-  padding: 40px 60px;
-}
 @media (max-width: 900px) {
   .case-study-page {
     padding: 40px 15px;
