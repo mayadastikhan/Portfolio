@@ -306,7 +306,9 @@ a{
   padding: 5%;
   box-sizing: border-box;
 }
-
+.heading-nav nav {
+  background-color: white !important;
+}
 body.case-study-active {
   background-color: white !important;
 }
@@ -318,6 +320,7 @@ body.case-study-active {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  padding-right: 5%;
 }
 
 .case-study-text h1 {
@@ -340,17 +343,11 @@ body.case-study-active {
   line-height: 1.6;
 }
 
-.designer-info, .launch-date {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #555;
-  margin-top: 15px;
-}
-
 .case-study-image {
   width: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .case-study-image img {
@@ -365,7 +362,15 @@ body.case-study-active {
   color: #136896;
   margin-bottom: 20px;
 }
-
+.overview {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 30px;
+}
 
 @media (max-width: 900px) {
   .case-study-page {
