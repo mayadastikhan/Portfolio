@@ -296,32 +296,25 @@ a{
 }
 
 .case-study-page{
-  background-color: #FFFFFF !important; 
-  width: 100vw;
-  min-height: 100vh;
-  padding: 60px 20px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-body.case-study-active,
-html.case-study-active {
-  background-color: #FFFFFF !important;
-}
-.case-study-page * {
-  background-color: #FFFFFF !important;
-}
-.case-study-image {
-  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 20px auto;
+  height: 100vh;
+  background-color: white; 
+  padding: 5%;
+}
+.case-study-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .case-study-image img {
   width: 100%;
-  max-width: 900px;
-  border-radius: 10px;
+  height: auto;
+  object-fit: contain;
 }
 .case-study-page h1,
 .case-study-page h2,
@@ -334,7 +327,7 @@ html.case-study-active {
 }
 
 .case-study-page h1{
-  color: #fa382a;
+  color: #DA4F4F;
   font-family: 'Magilio', sans-serif;
   font-size: 6vw;
   margin-bottom: 10px;
@@ -344,11 +337,11 @@ html.case-study-active {
 .case-study-text .subtitle {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #6a40ff; /* Purple accent like Skanect case study */
+  color: #136896;
   margin-bottom: 20px;
 }
 .case-study-page h2{
-  color: #F45B69;
+  color: #136896;
   font-family: 'Magilio', sans-serif;
   font-size: 5vw;
   text-align: left;
@@ -357,7 +350,7 @@ html.case-study-active {
 }
 
 .case-study-page h3{
-  color: #F45B69;
+  color: #000000;
   font-family: 'Magilio', sans-serif;
   font-size: 4vw;
   text-align: left;
@@ -376,7 +369,7 @@ html.case-study-active {
 
 .case-study-page p,
 .case-study-page ul{
-  color: #E6AF2E;
+  color: #333;
   font-family: 'Magilio', sans-serif;
   font-size: 2vw; 
   margin: 20 auto; 

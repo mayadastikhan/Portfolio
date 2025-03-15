@@ -137,38 +137,19 @@ function App() {
               {/* Left Content Section */}
               <div className="case-study-text">
                 <h1>Epic</h1>
-                <h2 className="subtitle">Case Study of Software Redesign</h2>
+                <h2 className="subtitle">Case Study of Optimization Redesign</h2>
                 <p>
                   We streamlined emergency workflows by 
                   enhancing real-time EMT-to-ER data 
                   transfer, reducing manual documentation, 
                   and improving medical ordering system.
                 </p>
-                {/* Designer Info & Project Timeline */}
-                <p className="designer-info">
-                  <strong>Maya Khan, UX Designer</strong> <br />
-                  01/15/2025 - 03/10/2025
-                </p>
 
-                {/* Launch Date */}
-                <p className="launch-date">Launched March 14, 2025</p>
-              </div>
-
-              {/* Right Image Section
+              {/* Right Image Section */}
               <div className="case-study-image">
-                <img src={projectImage} alt="Epic EMT Handoff Portal UI" />
-              </div> */}
+                <img src="epicRightImageIntro.png" alt="Epic EMT Handoff Portal UI" />
+              </div>
             </section>
-             <header className="hero">
-             <h1>Epic EMT Handoff 
-              and Medical Ordering Optimization</h1>
-             <h2>Improving Emergency Medical Workflows for 
-              Faster, More Efficient Care</h2>
-             <p>Every second counts in emergency care. We streamlined the EMT-to-ER patient 
-              handoff to save doctors and nurses valuable time.</p>
-             </header>
-
-             <hr className="divider" />
              <section className="overview">
                 <h2>Overview</h2>
                 <img src="Component 5.png" className ="case-study-image"/>
