@@ -152,10 +152,10 @@ function App() {
                 <p className="launch-date">Launched March 14, 2025</p>
               </div>
 
-              {/* Right Image Section */}
+              {/* Right Image Section
               <div className="case-study-image">
                 <img src={projectImage} alt="Epic EMT Handoff Portal UI" />
-              </div>
+              </div> */}
             </section>
              <header className="hero">
              <h1>Epic EMT Handoff 
