@@ -133,6 +133,30 @@ function App() {
       case "caseStudy1":
         return (
           <div className="case-study-page">
+            <section className="case-study-intro">
+              {/* Left Content Section */}
+              <div className="case-study-text">
+                <h1>Epic EMT Handoff</h1>
+                <h2 className="subtitle">Case Study of Emergency Medical Workflow Optimization</h2>
+                <p>
+                  We streamlined emergency workflows by enhancing real-time EMT-to-ER 
+                  data transfer, reducing manual documentation, and improving hospital preparedness.
+                </p>
+                {/* Designer Info & Project Timeline */}
+                <p className="designer-info">
+                  <strong>Maya Khan, UX Designer</strong> <br />
+                  01/15/2025 - 03/10/2025
+                </p>
+
+                {/* Launch Date */}
+                <p className="launch-date">Launched March 14, 2025</p>
+              </div>
+
+              {/* Right Image Section */}
+              <div className="case-study-image">
+                <img src={projectImage} alt="Epic EMT Handoff Portal UI" />
+              </div>
+            </section>
              <header className="hero">
              <h1>Epic EMT Handoff 
               and Medical Ordering Optimization</h1>
