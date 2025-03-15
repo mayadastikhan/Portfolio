@@ -318,6 +318,12 @@ a{
   margin-bottom: 10px;
 
 }
+.case-study-text .subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #6a40ff; /* Purple accent like Skanect case study */
+  margin-bottom: 20px;
+}
 .case-study-page h2{
   color: #F45B69;
   font-family: 'Magilio', sans-serif;

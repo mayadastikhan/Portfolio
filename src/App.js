@@ -136,11 +136,13 @@ function App() {
             <section className="case-study-intro">
               {/* Left Content Section */}
               <div className="case-study-text">
-                <h1>Epic EMT Handoff</h1>
-                <h2 className="subtitle">Case Study of Emergency Medical Workflow Optimization</h2>
+                <h1>Epic</h1>
+                <h2 className="subtitle">Case Study of Software Redesign</h2>
                 <p>
-                  We streamlined emergency workflows by enhancing real-time EMT-to-ER 
-                  data transfer, reducing manual documentation, and improving hospital preparedness.
+                  We streamlined emergency workflows by 
+                  enhancing real-time EMT-to-ER data 
+                  transfer, reducing manual documentation, 
+                  and improving medical ordering system.
                 </p>
                 {/* Designer Info & Project Timeline */}
                 <p className="designer-info">
