@@ -305,11 +305,35 @@ a{
   max-width: 1100px;
   padding: 40px;
 }
-.case-study-text {
-  flex: 1;
-  text-align: left;
-  padding-right: 40px;
+body.case-study-active,
+html.case-study-active {
+  background-color: #FFFFFF !important;
 }
+.case-study-page * {
+  background-color: #FFFFFF !important;
+}
+.case-study-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.case-study-image img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+}
+.case-study-page h1,
+.case-study-page h2,
+.case-study-page p,
+.case-study-page ul {
+  text-align: left;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .case-study-page h1{
   color: #fa382a;
   font-family: 'Magilio', sans-serif;
@@ -362,6 +386,23 @@ a{
   max-width: 800px; 
   line-height: 1.6; 
   padding: 40px 60px;
+}
+@media (max-width: 900px) {
+  .case-study-page {
+    padding: 40px 15px;
+  }
+
+  .case-study-page h1 {
+    font-size: 2rem;
+  }
+
+  .case-study-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .case-study-page p {
+    font-size: 1.1rem;
+  }
 }
 .nav-button.feline-research {
   font-family: 'Magilio', sans-serif;
