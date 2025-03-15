@@ -297,22 +297,20 @@ a{
 
 .case-study-page {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; 
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100vw;
   height: 100vh;
-  background-color: white !important; /* Force white background */
+  background-color: white !important;
   padding: 5%;
   box-sizing: border-box;
 }
 
-/* Fixes issue where border color from other pages leaks */
 body.case-study-active {
   background-color: white !important;
 }
 
-/* Ensure content stays aligned properly */
 .case-study-text {
   width: 45%;
   text-align: left;
@@ -321,7 +319,7 @@ body.case-study-active {
 .case-study-text h1 {
   font-size: 2.8rem;
   font-weight: 700;
-  color: #D64545; /* Red Title */
+  color: #D64545; 
   margin-bottom: 10px;
 }
 
@@ -345,7 +343,6 @@ body.case-study-active {
   margin-top: 15px;
 }
 
-/* Ensure image is properly sized */
 .case-study-image {
   width: 50%;
   display: flex;
