@@ -144,6 +144,8 @@ function App() {
                   transfer, reducing manual documentation, 
                   and improving medical ordering system.
                 </p>
+                </div>
+            
 
               {/* Right Image Section */}
               <div className="case-study-image">
