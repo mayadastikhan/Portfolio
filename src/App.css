@@ -312,8 +312,12 @@ body.case-study-active {
 }
 
 .case-study-text {
-  width: 45%;
+  width: 50%;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
 
 .case-study-text h1 {
