@@ -303,7 +303,6 @@ a{
   justify-content: flex-start;
   width: 100%;
   max-width: 1100px;
-  padding: 0;
   padding: 40px;
 }
 .case-study-text {
@@ -316,6 +315,7 @@ a{
   font-family: 'Magilio', sans-serif;
   font-size: 6vw;
   margin-bottom: 10px;
+  padding: 40px 60px;
 
 }
 .case-study-text .subtitle {
