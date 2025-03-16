@@ -36,13 +36,15 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   position: relative;
-}
-
-.heading-nav nav {
-  display: flex;
   gap: 20px;
 }
 
+.heading-nav {
+  position: relative; /* Instead of fixed */
+  width: 100%;
+  background: white;
+  z-index: 10;
+}
 .nav-button {
   font-family: 'Magilio', sans-serif;
   background: none;
@@ -299,13 +301,32 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  overflow-y: scroll; /* Enables scrolling */
-  scroll-snap-type: y mandatory; /* Snaps to each section */
-  scroll-behavior: smooth; /* Smooth scrolling effect */
-  padding-top: 60px; /* Match the header height */
+  width: 100%;
+  min-height: 100vh;  /* Changed from height: 100vh */
+  background-color: white;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: auto; /* Ensure scrolling is possible */
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+.case-study-intro,
+.overview,
+.problem-statement,
+.research,
+.design,
+.impact,
+.next-steps {
+  display: flex;
+  flex-direction: row; /* Keep image & text side by side */
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;  /* Full viewport height */
+  max-width: 1400px;
+  padding: 5%;
+  box-sizing: border-box;
+  scroll-snap-align: start;
 }
 body.case-study-active {
   background-color: white !important;
@@ -313,14 +334,16 @@ body.case-study-active {
 
 .case-study-intro {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100vw;
   height: 100vh; /* Ensures it takes the full screen */
-  padding: 5%;
-  box-sizing: border-box;
   scroll-snap-align: start;
+  padding: 5%;
+  text-align: center;
+  background-color: white; /* Ensures visibility */
+  z-index: 10; /* Makes sure it's not behind anything */
 }
 .case-study-text {
   flex: 1; /* Takes up half the page */
