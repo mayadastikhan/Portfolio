@@ -339,7 +339,8 @@ body.case-study-active {
   color: #333;
   line-height: 1.6;
 }
-.case-study-image-intro {
+.case-study-image-intro
+ {
   width: 50%;
   display: flex;
   justify-content: center;
