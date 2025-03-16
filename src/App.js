@@ -148,8 +148,8 @@ function App() {
             
 
               {/* Right Image Section */}
-              <div className="case-study-image">
-                <img src="epicRightImageIntro.png" alt="Epic EMT Handoff Portal UI" />
+              <div className="case-study-image-intro">
+                <img src="/Frame 1 (2).png" alt="Epic EMT Handoff Portal UI" />
               </div>
             </section>
              <section className="overview">
