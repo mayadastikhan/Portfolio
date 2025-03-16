@@ -40,10 +40,17 @@ body::-webkit-scrollbar {
 }
 
 .heading-nav {
-  position: relative; /* Instead of fixed */
+  position: fixed;  /* Keep it at the top */
+  top: 0;
+  left: 0;
   width: 100%;
   background: white;
-  z-index: 10;
+  z-index: 1000;  /* Ensure it stays above content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0; /* Ensures spacing */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 .nav-button {
   font-family: 'Magilio', sans-serif;
