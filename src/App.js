@@ -133,55 +133,64 @@ function App() {
       case "caseStudy1":
         return (
           <div className="case-study-page">
-      {/* HEADER SECTION */}
-      <div className="case-study-header">
-        {/* Left Text Section */}
-        <div className="case-study-text">
-          <h1>Epic</h1>
-          <h2 className="subtitle">Case Study of Optimization Redesign</h2>
-          <p>
-            We streamlined emergency workflows by enhancing real-time EMT-to-ER 
-            data transfer, reducing manual documentation, and optimizing the 
-            medical ordering system for faster, more efficient patient care.
-          </p>
-        </div>
+        {/* HEADER SECTION */}
+        <section className="case-study-section">
+          <div className="case-study-text">
+            <h1>Epic</h1>
+            <h2>Case Study of Optimization Redesign</h2>
+            <p>
+              We streamlined emergency workflows by enhancing real-time EMT-to-ER 
+              data transfer, reducing manual documentation, and optimizing the 
+              medical ordering system for faster, more efficient patient care.
+            </p>
+          </div>
+          <div className="case-study-image">
+            <img src={epicImage} alt="Epic EMT Handoff Portal UI" />
+          </div>
+        </section>
 
-        {/* Right Image Section */}
-        <div className="case-study-header-image">
-          <img src={"epicRightImageIntro.png"} alt="Epic EMT Handoff Portal UI" />
-        </div>
-      </div>
+        {/* OVERVIEW SECTION */}
+        <section className="case-study-section">
+          <div className="case-study-text">
+            <h2>Overview</h2>
+            <p>
+              Emergency medicine operates in high-pressure, time-sensitive conditions. 
+              Yet electronic health record (EHR) systems like Epic create workflow 
+              inefficiencies that slow down EMTs, ER doctors, nurses, medical 
+              technicians, and emergency teams.
+            </p>
+          </div>
+          <div className="case-study-image">
+            <img src={researchImage} alt="Overview UI" />
+          </div>
+        </section>
 
-      {/* OVERVIEW SECTION */}
-      <section className="overview">
-        <h2>Overview</h2>
-        {/* <img src={researchImage} alt="Overview UI" className="research-image" /> */}
-        <p>
-          Emergency medicine operates in high-pressure, time-sensitive conditions. 
-          Yet electronic health record (EHR) systems like Epic create workflow 
-          inefficiencies that slow down EMTs, ER doctors, nurses, medical 
-          technicians, and emergency teams. 
-        </p>
+        {/* DESIGN SOLUTION SECTION */}
+        <section className="case-study-section">
+          <div className="case-study-text">
+            <h2>The Solution: A Smarter EMT Handoff Portal</h2>
+            <ul>
+              <li><strong>Auto-detects nearest hospital</strong> & pre-fills details.</li>
+              <li><strong>One-tap patient handoff</strong> updates the hospital’s tracking board instantly.</li>
+              <li><strong>EMT priority alerts</strong> highlight incoming critical patients.</li>
+            </ul>
+          </div>
+          <div className="case-study-image">
+            <img src={designImage} alt="Design UI" />
+          </div>
+        </section>
+
+        {/* IMPACT SECTION */}
+        <section className="case-study-section">
+          <div className="case-study-text">
+            <h2>The Impact</h2>
+            <p>By reducing workflow inefficiencies, we saved **10+ minutes per case**, enabling hospitals to act faster.</p>
+          </div>
+          <div className="case-study-image">
+            <img src={impactImage} alt="Impact Metrics" />
+          </div>
       </section>
-
-      {/* DESIGN SOLUTION SECTION */}
-      <section className="design">
-        <h3>The Solution: A Smarter EMT Handoff Portal</h3>
-        {/* <img src={designImage} alt="Design UI" className="design-image" /> */}
-        <ul>
-          <li><strong>Auto-detects nearest hospital</strong> & pre-fills details.</li>
-          <li><strong>One-tap patient handoff</strong> updates the hospital’s tracking board instantly.</li>
-          <li><strong>EMT priority alerts</strong> highlight incoming critical patients.</li>
-        </ul>
-      </section>
-
-      {/* IMPACT SECTION */}
-      <section className="impact">
-        <h3>The Impact</h3>
-        {/* <img src={impactImage} alt="Impact Metrics" className="impact-image" /> */}
-        <p>By reducing workflow inefficiencies, we saved **10+ minutes per case**, enabling hospitals to act faster.</p>
-      </section>
-    </div>
+     </div>
         );
       case "caseStudy2":
         return (
