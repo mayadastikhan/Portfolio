@@ -297,14 +297,15 @@ a{
 
 .case-study-page {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row; /* Side-by-side layout */
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100vw;
-  height: 100vh;
-  background-color: white !important;
+  min-height: 100vh;
+  background-color: white;
   padding: 5%;
   box-sizing: border-box;
+  gap: 3rem; /* Adds space between the text and image */
 }
 body.case-study-active {
   background-color: white !important;
