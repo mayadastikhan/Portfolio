@@ -116,6 +116,7 @@ body::-webkit-scrollbar {
 
 
 .nameIntro {
+  padding-top: 80px;
   color: #7AB574;
   font-family: 'Magilio', sans-serif;
   font-size: 6vw;
@@ -312,6 +313,7 @@ a{
   min-height: 100vh;  /* Changed from height: 100vh */
   background-color: white;
   padding: 0;
+  padding-top: 80px;
   box-sizing: border-box;
   overflow-y: auto; /* Ensure scrolling is possible */
   scroll-snap-type: y mandatory;
