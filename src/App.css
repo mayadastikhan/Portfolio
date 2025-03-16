@@ -338,7 +338,6 @@ a{
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-
 }
 
 .case-study-text h1 {
@@ -365,8 +364,8 @@ a{
 }
 
 .case-study-header-image img {
-  width: 100%;
-  max-width: 500px;
+  width: 100%; 
+  max-width: 600px; /* Limits image size for large screens */
   height: auto;
   object-fit: contain;
   border-radius: 10px;
