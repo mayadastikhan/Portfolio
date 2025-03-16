@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   height: auto;
-  background-color: #FDF3E5;
+  background-color: #FFFFFF;
   align-items: center;
   -webkit-overflow-scrolling: touch;
 
@@ -297,18 +297,35 @@ a{
 
 .case-study-page {
   display: flex;
-  flex-direction: row; /* Side-by-side layout */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   background-color: white;
-  padding: 5%;
-  box-sizing: border-box;
-  gap: 3rem; /* Adds space between the text and image */
+  overflow-y: scroll; /* Enables scrolling */
+  scroll-snap-type: y mandatory; /* Snaps to each section */
+  scroll-behavior: smooth; /* Smooth scrolling effect */
 }
 body.case-study-active {
   background-color: white !important;
+}
+.case-study-intro, 
+.overview, 
+.problem-statement, 
+.research, 
+.design, 
+.impact, 
+.next-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh; /* Takes up full viewport */
+  scroll-snap-align: start;
+  padding: 5%;
+  text-align: center;
 }
 .case-study-intro {
   display: flex;
