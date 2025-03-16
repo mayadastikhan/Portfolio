@@ -148,14 +148,14 @@ function App() {
 
         {/* Right Image Section */}
         <div className="case-study-header-image">
-          <img src={epicImage} alt="Epic EMT Handoff Portal UI" />
+          <img src={"epicRightImageIntro.png"} alt="Epic EMT Handoff Portal UI" />
         </div>
       </div>
 
       {/* OVERVIEW SECTION */}
       <section className="overview">
         <h2>Overview</h2>
-        <img src={researchImage} alt="Overview UI" className="research-image" />
+        {/* <img src={researchImage} alt="Overview UI" className="research-image" /> */}
         <p>
           Emergency medicine operates in high-pressure, time-sensitive conditions. 
           Yet electronic health record (EHR) systems like Epic create workflow 
@@ -167,7 +167,7 @@ function App() {
       {/* DESIGN SOLUTION SECTION */}
       <section className="design">
         <h3>The Solution: A Smarter EMT Handoff Portal</h3>
-        <img src={designImage} alt="Design UI" className="design-image" />
+        {/* <img src={designImage} alt="Design UI" className="design-image" /> */}
         <ul>
           <li><strong>Auto-detects nearest hospital</strong> & pre-fills details.</li>
           <li><strong>One-tap patient handoff</strong> updates the hospital’s tracking board instantly.</li>
@@ -178,7 +178,7 @@ function App() {
       {/* IMPACT SECTION */}
       <section className="impact">
         <h3>The Impact</h3>
-        <img src={impactImage} alt="Impact Metrics" className="impact-image" />
+        {/* <img src={impactImage} alt="Impact Metrics" className="impact-image" /> */}
         <p>By reducing workflow inefficiencies, we saved **10+ minutes per case**, enabling hospitals to act faster.</p>
       </section>
     </div>
