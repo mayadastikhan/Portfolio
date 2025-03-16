@@ -389,6 +389,23 @@ body.case-study-active {
     font-size: 1.1rem;
   }
 }
+@media (max-width: 768px) {
+  .case-study-page {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .case-study-text,
+  .case-study-image {
+    width: 100%;
+    padding: 0;
+  }
+
+  .overview {
+    flex-direction: column;
+    align-items: center;
+  }
 .nav-button.feline-research {
   font-family: 'Magilio', sans-serif;
   font-size: 1.5rem;
