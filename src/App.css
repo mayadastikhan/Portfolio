@@ -320,7 +320,7 @@ a{
   padding: 5%;
   box-sizing: border-box;
   scroll-snap-align: start; 
-  overflow-x: hidden;
+  
 }
 .case-study-header {
   display: flex;
@@ -338,19 +338,21 @@ a{
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-
+  padding-right: 5%;
 }
 
 .case-study-text h1 {
   font-size: 3rem;
   font-weight: 700;
   color: #D64545; 
+  margin-bottom: 10px;
 }
 
 .case-study-text h2 {
   font-size: 1.8rem;
   font-weight: 600;
   color: #2276B8; 
+  margin-bottom: 20px;
 }
 
 .case-study-text p {
