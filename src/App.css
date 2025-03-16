@@ -376,7 +376,23 @@ a{
   height: 100vh;
   object-fit: cover; 
 }
+/* 📷 Right Section: Image */
+.case-study-image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end; /* Align image to the right */
+  align-items: center;
+  height: 100%; /* Keep full-page height */
+  overflow: hidden; /* Prevents any overflow */
+}
 
+/* 🖼 Image Scaling Fix */
+.case-study-image img {
+  width: 100%; /* Ensures it spans the full width */
+  height: 100vh; /* Keeps full-page height */
+  object-fit: contain; /* Ensures the whole image is visible */
+  max-height: 90vh; /* Prevents excessive stretching */
+}
 .case-study-text .subtitle {
   font-size: 1.5rem;
   font-weight: 600;
