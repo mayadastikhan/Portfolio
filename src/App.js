@@ -145,7 +145,7 @@ function App() {
             </p>
           </div>
           <div className="case-study-image">
-            <img src={"Frame 1 (1).png"} alt="Epic EMT Handoff Portal UI" />
+            <img src={"Frame 1.png"} alt="Epic EMT Handoff Portal UI" />
           </div>
         </section>
 
