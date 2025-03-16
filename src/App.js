@@ -145,7 +145,7 @@ function App() {
             </p>
           </div>
           <div className="case-study-image">
-            <img src={epicImage} alt="Epic EMT Handoff Portal UI" />
+            <img src={"epicRightImageIntro.png"} alt="Epic EMT Handoff Portal UI" />
           </div>
         </section>
 
@@ -161,7 +161,7 @@ function App() {
             </p>
           </div>
           <div className="case-study-image">
-            <img src={researchImage} alt="Overview UI" />
+            {/* <img src={researchImage} alt="Overview UI" /> */}
           </div>
         </section>
 
@@ -176,7 +176,7 @@ function App() {
             </ul>
           </div>
           <div className="case-study-image">
-            <img src={designImage} alt="Design UI" />
+            {/* <img src={designImage} alt="Design UI" /> */}
           </div>
         </section>
 
@@ -187,7 +187,7 @@ function App() {
             <p>By reducing workflow inefficiencies, we saved **10+ minutes per case**, enabling hospitals to act faster.</p>
           </div>
           <div className="case-study-image">
-            <img src={impactImage} alt="Impact Metrics" />
+            {/* <img src={impactImage} alt="Impact Metrics" /> */}
           </div>
       </section>
      </div>
