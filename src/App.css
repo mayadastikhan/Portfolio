@@ -297,17 +297,15 @@ a{
 
 .case-study-page {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  width: 100%;
-  min-height: 100vh;
+  justify-content: space-between;
+  width: 100%; /* Instead of fixed width */
+  height: 100vh; /* Full viewport height */
   background-color: white;
-  padding: 0;
+  padding: 5%;
   box-sizing: border-box;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory; 
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow: hidden; 
 }
 .case-study-section {
   display: flex;
