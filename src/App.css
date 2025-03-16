@@ -310,15 +310,22 @@ a{
 body.case-study-active {
   background-color: white !important;
 }
-
+.case-study-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  gap: 20px;
+}
 .case-study-text {
-  width: 50%;
+  flex: 1; /* Takes up half the page */
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
-  padding-right: 5%;
+  max-width: 50%; /* Makes sure it doesn’t go full width */
 }
 
 .case-study-text h1 {
@@ -342,14 +349,16 @@ body.case-study-active {
 }
 .case-study-image
  {
-  width: 50%;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 50%;
 }
 
 .case-study-image img {
   width: 100%;
+  max-width: 600px;
   height: auto;
   object-fit: contain;
 }
