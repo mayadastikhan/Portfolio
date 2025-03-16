@@ -134,7 +134,7 @@ function App() {
         return (
           <div className="case-study-page">
             <section className="case-study-section">
-              <div className="case-study-header">
+              <div className="case-study-text">
                 <h1>Epic</h1>
                 <h2>Case Study of Optimization Redesign</h2>
                 <p>
