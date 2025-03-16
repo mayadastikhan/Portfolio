@@ -27,7 +27,7 @@ function App() {
                 />
                 <div className="case-study-details">
                   <a
-                    href="#"
+                    href="case-studies-epic-redesign"
                     onClick={() => setActiveSection("caseStudy1")}
                     className="case-study-title"
                   >
@@ -154,7 +154,6 @@ function App() {
             </section>
              <section className="overview">
                 <h2>Overview</h2>
-                {/* <img src="Component 5.png" className ="case-study-image"/> */}
                 <p>Emergency medicine operates in high-pressure, time-sensitive 
                 conditions, yet electronic health record (EHR) systems like
                 Epic often create workflow inefficiencies that slow down EMTs, 
@@ -164,8 +163,7 @@ function App() {
                 patient registration, and streamlining medication ordering to 
                 enhance hospital preparedness in critical situtations.</p>
               </section>
-      
-            <hr className="divider" />
+
             <section className="problem-statement">
               <h2>The Problem</h2>
               <p>Emergency room doctors need to quickly capture essential patient data 
@@ -177,28 +175,44 @@ function App() {
               </p>
             </section>
 
-            <hr className="divider" />
             <section className="research">
-              <h2>Research & Insights</h2>
-              <img src="Screenshot 2024-12-11 at 9.07.02 PM.png" className ="case-study-image"/>
-              <p>To fully understand these pain points, we conducted user interviews and usability 
-              testing with our key stakeholders:
+              <div className="research-intro">
+                <h2>Research & Insights</h2>
+                <p>To fully understand these pain points, we conducted user interviews and usability 
+                testing with our key stakeholders:
+                </p>
+              </div>
 
-              Dr. Sofia J Dasti (Emergency Physician): Highlighted workflow inefficiencies, cognitive 
-              overload, and the need for real-time patient handoff integration in Epic.
+              <div className="stakeholder">
+                <h3>Dr. Sofia Dasti (Emergency Physician)</h3>
+                <ul>
+                  <li>Uses Epic daily in the ER but faces <strong>workflow inefficiencies</strong>.</li>
+                  <li><strong>Frequent logins</strong> (100+ times per shift) slow down patient care.</li>
+                  <li><strong>Order placement barriers</strong>: Rigid system requirements prevent quick actions in critical cases.</li>
+                  <li><strong>Click fatigue</strong>: Excessive steps and documentation requirements increase cognitive strain.</li>
+                  <li><strong>Simultaneous access issues</strong>: Only one user can edit a patient’s chart at a time, causing workflow bottlenecks.</li>
+                </ul>
+              </div>
 
-              Kyra Brandt (Epic Software Trainor): Provided insights into how EMTs and hospital staff 
-              use Epic, customization limitations, and areas for UX improvement.
-              </p>
+              <div className="stakeholder">
+                <h3>Kyra Brandt (Epic Software Trainer)</h3>
+                <ul>
+                  <li>Trains new Epic users, focusing on <strong>workflow-based learning</strong>.</li>
+                  <li><strong>Customization is both a strength and a challenge</strong>—every hospital configures Epic differently, making training difficult.</li>
+                  <li><strong>Feedback-driven approach</strong>: Epic updates its software and training programs based on user input.</li>
+                  <li><strong>ER-specific training</strong> ensures staff can navigate the system efficiently under pressure.</li>
+                </ul>
+              </div>
+              <div className="key-takeaways">
+              <h3>Key Takeaways</h3>
               <ul>
-              <li> <strong>EMTs:</strong> Need a **faster way to send patient data** before arrival.</li>
-              <li> <strong>Doctors:</strong> Lose **10+ minutes per patient** due to **manual data entry & lack of real-time updates**.</li>
-              <li> <strong>Nurses & Techs:</strong> Struggle with **missing info**, causing **delayed lab tests & room prep**.</li>
-              <li> <strong>Current tracking boards:</strong> Don't highlight **EMT patients in transit**, delaying hospital response.</li>
+                <li>Epic’s system is robust but has <strong>usability barriers</strong> that slow emergency workflows.</li>
+                <li>Login delays, complex order entry, and documentation burdens impact patient care.</li>
+                <li>Real-time data sharing, streamlined login processes, and better customization training could enhance efficiency.</li>
               </ul>
+            </div>
             </section>
 
-            <hr className="divider" />
             <section className="design">
               <h3>The Solution: A Smarter EMT Handoff Portal</h3>
               <p>We redesigned the **EMT-to-ER patient handoff** to improve speed, clarity, and hospital readiness.</p>
@@ -218,7 +232,6 @@ function App() {
               </ul>
             </section>
 
-            <hr className="divider" />
             <section className="impact">
               <h3>The Impact</h3>
               <p>By cutting **10+ minutes of wasted time per critical case**, our system allows hospitals to act faster.</p>
@@ -230,7 +243,6 @@ function App() {
               </ul>
             </section>
 
-            <hr className="divider" />
             <section className="next-steps">
               <h3>What’s Next?</h3>
               <ul>

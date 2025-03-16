@@ -317,21 +317,13 @@ a{
   min-height: 100vh;  /* Changed from height: 100vh */
   background-color: white;
   padding: 0;
-  padding-top: 80px;
-  margin-top: 100px;
   justify-content: flex-start;
   box-sizing: border-box;
   overflow-y: auto; /* Ensure scrolling is possible */
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
-.case-study-intro,
-.overview,
-.problem-statement,
-.research,
-.design,
-.impact,
-.next-steps {
+.case-study-intro {
   display: flex;
   flex-direction: row; /* Keep image & text side by side */
   align-items: center;
@@ -352,7 +344,7 @@ body.case-study-active {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 1400px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 5%;
   box-sizing: border-box;
@@ -367,12 +359,17 @@ body.case-study-active {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 40px;
   width: 70%;
   max-width: 1200px;
-  text-align: center;
   min-width: 300px;
   height: auto;
+  width: 70%;
+  height: 100vh;
+  max-width: 1200px;
+  min-width: 300px;
+  margin: 0 auto;  /* Center align section */
+  padding: 50px 0;  /* Add spacing */
+  text-align: left;  /* Ensure left alignment */
 }
 .case-study-text {
   width: 50%;
@@ -382,24 +379,26 @@ body.case-study-active {
   justify-content: center;
   gap: 15px;
   padding-right: 5%;
+  padding: 20px;  /* Reduce padding */
+  margin-bottom: 0; /* Remove extra space below */
 }
 
 .case-study-text h1 {
-  font-size: 2.8rem;
+  font-size: 4vw;
   font-weight: 700;
   color: #D64545; 
   margin-bottom: 10px;
 }
 
 .case-study-text h2 {
-  font-size: 1.8rem;
+  font-size: 2vw;
   font-weight: 600;
   color: #2276B8; /* Blue Subtitle */
   margin-bottom: 20px;
 }
 
 .case-study-text p {
-  font-size: 1.2rem;
+  font-size: 1.5vw;
   color: #333;
   line-height: 1.6;
 }
@@ -414,25 +413,103 @@ body.case-study-active {
 
 .case-study-image img {
   width: 100%;
-  max-width: 500px; /* Adjust based on your design */
+  max-width: 800px; /* Adjust based on your design */
   height: auto;
   object-fit: contain;
 }
 
-.case-study-text .subtitle {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #136896;
-  margin-bottom: 20px;
-}
-.overview {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  width: 100%;
+.overview,
+.problem-statement,
+.research,
+.design,
+.impact,
+.next-steps { 
+  width: 70vw;
   max-width: 1200px;
+  min-width: 300px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  scroll-snap-align: start;
+  padding: 5vw 0;
+}
+
+.overview h2,
+.problem-statement h2,
+.research h2,
+.design h2,
+.impact h2,
+.next-steps h2{
+  font-size: 2vw;  /* Large title */
+  font-weight: 700;
+  color: #136896;  /* Distinguish the title */
+  display: block;  /* Ensures it takes full width */
+}
+.overview p,
+.problem-statement p,
+.research p,
+.design p,
+.impact p,
+.next-steps p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: left;
+}
+.research-section h2 {
+  font-size: 2vw;
+  font-weight: bold;
+  color: #136896;
+  text-align: center;
+}
+.research.intro h2{
+  font-size: 1.7vw;
+
+}
+
+.stakeholder {
+  margin-top: 20px;
+  padding: 20px;
+  border-left: 5px solid #2276B8;
+}
+
+.stakeholder h3 {
+  font-size: 1.7vw;
+  color: #D64545;
+  margin-bottom: 10px;
+}
+
+.stakeholder ul {
+  padding-left: 20px;
+}
+
+.stakeholder li {
+  font-size: 1.1vw;
+  line-height: 1.6;
+}
+
+.key-takeaways {
+  background: #f5f5f5;
+  padding: 20px;
   margin-top: 30px;
+  border-radius: 8px;
+}
+
+.key-takeaways h3 {
+  font-size: 1.7vw;
+  color: #136896;
+  margin-bottom: 10px;
+}
+
+.key-takeaways ul {
+  padding-left: 20px;
+}
+
+.key-takeaways li {
+  font-size: 1.1vw;
+  line-height: 1.6;
 }
 
 @media (max-width: 900px) {
