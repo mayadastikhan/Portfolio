@@ -303,9 +303,11 @@ a{
   width: 100vw;
   height: 100vh;
   background-color: white;
-  padding: 5%;
+  padding: 0;
   box-sizing: border-box;
-  overflow: hidden; 
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory; 
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 .case-study-section {
