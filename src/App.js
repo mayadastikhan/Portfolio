@@ -154,7 +154,7 @@ function App() {
             </section>
              <section className="overview">
                 <h2>Overview</h2>
-                <img src="Component 5.png" className ="case-study-image"/>
+                {/* <img src="Component 5.png" className ="case-study-image"/> */}
                 <p>Emergency medicine operates in high-pressure, time-sensitive 
                 conditions, yet electronic health record (EHR) systems like
                 Epic often create workflow inefficiencies that slow down EMTs, 

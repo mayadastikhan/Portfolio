@@ -302,7 +302,6 @@ a{
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: white;
   overflow-y: scroll; /* Enables scrolling */
   scroll-snap-type: y mandatory; /* Snaps to each section */
   scroll-behavior: smooth; /* Smooth scrolling effect */
