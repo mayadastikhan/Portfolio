@@ -297,41 +297,61 @@ a{
 
 .case-study-page {
   display: flex;
-  flex-direction: row; 
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory; 
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.case-study-section {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-color: white !important;
+  max-width: 1400px;
   padding: 5%;
   box-sizing: border-box;
+  scroll-snap-align: start;
+  overflow-x: hidden;
 }
-body.case-study-active {
-  background-color: white !important;
+.case-study-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
 }
-
 .case-study-text {
   width: 50%;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
-  padding-right: 5%;
+  gap: 15px;
+  padding-left: 5%;
+  padding-right: 3%;
 }
 
 .case-study-text h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #D64545; 
-  margin-bottom: 10px;
 }
 
 .case-study-text h2 {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #2276B8; /* Blue Subtitle */
-  margin-bottom: 20px;
+  color: #2276B8; 
 }
 
 .case-study-text p {
@@ -339,18 +359,20 @@ body.case-study-active {
   color: #333;
   line-height: 1.6;
 }
-
-.case-study-image {
+.case-study-header-image {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.case-study-image img {
-  width: 100%;
+.case-study-header-image img {
+  width: 100%; 
+  max-width: 600px;
   height: auto;
+  max-height: 90vh;
   object-fit: contain;
+  border-radius: 10px;
 }
 
 .case-study-text .subtitle {
@@ -369,39 +391,107 @@ body.case-study-active {
   margin-top: 30px;
 }
 
-@media (max-width: 900px) {
-  .case-study-page {
-    padding: 40px 15px;
-  }
-
-  .case-study-page h1 {
-    font-size: 2rem;
-  }
-
-  .case-study-page h2 {
-    font-size: 1.5rem;
-  }
-
-  .case-study-page p {
-    font-size: 1.1rem;
-  }
+.overview img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
 }
-@media (max-width: 768px) {
-  .case-study-page {
+.problem-statement {
+  max-width: 800px;
+  text-align: left;
+  margin: 40px auto;
+}
+
+.problem-statement h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #136896;
+}
+
+.problem-statement p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #444;
+}
+.design, .research, .impact, .next-steps {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.design h3, .research h3, .impact h3, .next-steps h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #136896;
+}
+
+.design ul, .research ul, .impact ul, .next-steps ul {
+  padding-left: 20px;
+}
+
+.design li, .research li, .impact li, .next-steps li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.cta {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta a {
+  font-size: 1.2rem;
+  color: #136896;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cta a:hover {
+  color: #0e4b6c;
+}
+@media (max-width: 1024px) {
+  .case-study-section {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: auto;
+    padding: 40px 5%;
   }
 
   .case-study-text,
   .case-study-image {
     width: 100%;
-    padding: 0;
+    text-align: center;
   }
 
-  .overview {
-    flex-direction: column;
-    align-items: center;
+  .case-study-image {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .case-study-image img {
+    max-width: 80%;
+    max-height: 400px;
+  }
+}
+
+/* Small Screens */
+@media (max-width: 768px) {
+  .case-study-text h1 {
+    font-size: 2rem;
+  }
+
+  .case-study-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .case-study-text p {
+    font-size: 1.1rem;
+  }
+
+  .case-study-image img {
+    max-width: 90%;
+    max-height: 300px;
   }
 }
 .nav-button.feline-research {

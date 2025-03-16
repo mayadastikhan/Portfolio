@@ -133,23 +133,18 @@ function App() {
       case "caseStudy1":
         return (
           <div className="case-study-page">
-            <section className="case-study-intro">
-              {/* Left Content Section */}
-              <div className="case-study-text">
+            <section className="case-study-section">
+              <div className="case-study-header">
                 <h1>Epic</h1>
-                <h2 className="subtitle">Case Study of Optimization Redesign</h2>
+                <h2>Case Study of Optimization Redesign</h2>
                 <p>
-                  We streamlined emergency workflows by 
-                  enhancing real-time EMT-to-ER data 
-                  transfer, reducing manual documentation, 
-                  and improving medical ordering system.
+                  We streamlined emergency workflows by enhancing real-time EMT-to-ER 
+                  data transfer, reducing manual documentation, and optimizing the 
+                  medical ordering system for faster, more efficient patient care.
                 </p>
-                </div>
-            
-
-              {/* Right Image Section */}
-              <div className="case-study-image">
-                <img src="epicRightImageIntro.png" alt="Epic EMT Handoff Portal UI" />
+              </div>
+              <div className="case-study-header-image">
+                <img src={"Frame 1 (1).png"} alt="Epic EMT Handoff Portal UI" />
               </div>
             </section>
              <section className="overview">
