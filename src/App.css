@@ -51,6 +51,10 @@ body::-webkit-scrollbar {
   align-items: center;
   padding: 15px 0; /* Ensures spacing */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  
+}
+.home-section {
+  padding-top: 100px; /* Adjust based on the nav bar height */
 }
 .nav-button {
   font-family: 'Magilio', sans-serif;
@@ -112,11 +116,11 @@ body::-webkit-scrollbar {
   background-position: center;
   box-sizing: border-box;
   margin-bottom: 20px;
+
 }
 
 
 .nameIntro {
-  padding-top: 80px;
   color: #7AB574;
   font-family: 'Magilio', sans-serif;
   font-size: 6vw;
@@ -314,6 +318,8 @@ a{
   background-color: white;
   padding: 0;
   padding-top: 80px;
+  margin-top: 100px;
+  justify-content: flex-start;
   box-sizing: border-box;
   overflow-y: auto; /* Ensure scrolling is possible */
   scroll-snap-type: y mandatory;
@@ -343,24 +349,39 @@ body.case-study-active {
 
 .case-study-intro {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 5%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh; /* Ensures it takes the full screen */
   scroll-snap-align: start;
   padding: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  width: 70%;
+  max-width: 1200px;
   text-align: center;
-  background-color: white; /* Ensures visibility */
-  z-index: 10; /* Makes sure it's not behind anything */
+  min-width: 300px;
+  height: auto;
 }
 .case-study-text {
-  flex: 1; /* Takes up half the page */
+  width: 50%;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 50%; /* Makes sure it doesn’t go full width */
+  gap: 15px;
+  padding-right: 5%;
 }
 
 .case-study-text h1 {
@@ -384,16 +405,16 @@ body.case-study-active {
 }
 .case-study-image
  {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 50%;
+  width: 50%;
+  min-width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
 }
 
 .case-study-image img {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px; /* Adjust based on your design */
   height: auto;
   object-fit: contain;
 }
