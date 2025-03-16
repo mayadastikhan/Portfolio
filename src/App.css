@@ -305,6 +305,7 @@ a{
   overflow-y: scroll; /* Enables scrolling */
   scroll-snap-type: y mandatory; /* Snaps to each section */
   scroll-behavior: smooth; /* Smooth scrolling effect */
+  padding-top: 60px; /* Match the header height */
 }
 body.case-study-active {
   background-color: white !important;
