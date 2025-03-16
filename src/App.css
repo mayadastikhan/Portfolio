@@ -310,35 +310,17 @@ a{
 body.case-study-active {
   background-color: white !important;
 }
-.case-study-intro, 
-.overview, 
-.problem-statement, 
-.research, 
-.design, 
-.impact, 
-.next-steps {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh; /* Takes up full viewport */
-  scroll-snap-align: start;
-  padding: 5%;
-  text-align: center;
-}
+
 .case-study-intro {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100vw;
   height: 100vh; /* Ensures it takes the full screen */
-  scroll-snap-align: start;
   padding: 5%;
-  text-align: center;
-  background-color: white; /* Ensures visibility */
-  z-index: 10; /* Makes sure it's not behind anything */
+  box-sizing: border-box;
+  scroll-snap-align: start;
 }
 .case-study-text {
   flex: 1; /* Takes up half the page */
