@@ -361,12 +361,11 @@ a{
   width: 50%;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .case-study-header-image img {
   width: 100%; 
-  max-width: 600px;
+  max-width: 600px; /* Limits image size for large screens */
   height: auto;
   object-fit: contain;
   border-radius: 10px;
@@ -473,33 +472,33 @@ a{
   color: #0e4b6c;
 }
 @media (max-width: 1024px) {
-  .case-study-section {
+  .case-study-header {
     flex-direction: column;
+    text-align: center;
     align-items: center;
-    text-align: center;
   }
 
-  .case-study-text, .case-study-image {
+  .case-study-text {
     width: 100%;
-    text-align: center;
   }
 
-  .case-study-image {
+  .case-study-header-image {
+    width: 100%;
     justify-content: center;
   }
 
-  .case-study-image img {
+  .case-study-header-image img {
     max-width: 80%;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .case-study-page {
-    padding: 40px 15px;
+    padding: 30px;
   }
 
   .case-study-text h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .case-study-text h2 {
@@ -509,8 +508,54 @@ a{
   .case-study-text p {
     font-size: 1.1rem;
   }
+
+  .problem-statement h2, .design h3, .research h3, .impact h3, .next-steps h3 {
+    font-size: 1.8rem;
+  }
 }
 
+@media (max-width: 600px) {
+  .case-study-page {
+    padding: 20px;
+  }
+
+  .case-study-header {
+    gap: 20px;
+  }
+
+  .case-study-text h1 {
+    font-size: 2rem;
+  }
+
+  .case-study-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .case-study-text p {
+    font-size: 1rem;
+  }
+
+  .problem-statement h2, .design h3, .research h3, .impact h3, .next-steps h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .case-study-page {
+    padding: 40px 15px;
+  }
+
+  .case-study-page h1 {
+    font-size: 2rem;
+  }
+
+  .case-study-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .case-study-page p {
+    font-size: 1.1rem;
+  }
+}
 @media (max-width: 768px) {
   .case-study-page {
     flex-direction: column;
@@ -518,13 +563,10 @@ a{
     text-align: center;
   }
 
-  .case-study-text, .case-study-image {
+  .case-study-text,
+  .case-study-image {
     width: 100%;
     padding: 0;
-  }
-
-  .case-study-image img {
-    max-width: 80%;
   }
 
   .overview {
