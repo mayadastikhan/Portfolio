@@ -144,7 +144,7 @@ function App() {
               medical ordering system for faster, more efficient patient care.
             </p>
           </div>
-          <div className="case-study-header-image">
+          <div className="case-study-image">
             <img src={"Frame 1 (1).png"} alt="Epic EMT Handoff Portal UI" />
           </div>
         </section>
