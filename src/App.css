@@ -352,6 +352,7 @@ body.case-study-active {
   min-width: 300px !important;
   height: auto !important;
   padding: 3vw !important;
+  margin-top: 13vh !important;
 }
 .case-study-text {
   width: 50% !important;
@@ -438,23 +439,24 @@ body.case-study-active {
 /* RESPONSIVE DESIGN */
 @media (max-width: 900px) {
   .case-study-intro {
-    flex-direction: column !important; /* Stack elements */
+    padding-top: 12vw !important; /* Extra space for the nav */
+    flex-direction: column !important; /* Stack text & image */
     align-items: center !important;
     text-align: left !important;
   }
 
-  .case-study-text {
+  .case-study-intro .case-study-text {
     width: 100% !important;
     padding-right: 0 !important;
   }
 
-  .case-study-image {
+  .case-study-intro .case-study-image {
     width: 100% !important;
-    order: 2 !important; /* Moves the image below text */
+    order: 2 !important; /* Moves only the image inside case-study-intro below */
     margin-top: 2vw !important;
   }
 
-  .case-study-image img {
+  .case-study-intro .case-study-image img {
     max-width: 100% !important;
     height: auto !important;
   }
@@ -463,28 +465,29 @@ body.case-study-active {
 @media (max-width: 600px) {
   .case-study-intro {
     width: 90% !important;
-    padding: 3vw !important;
+    padding: 10vw 5vw 5vw; /* Increased top padding */
+    margin-top: 5vw;
   }
 
-  .case-study-text h1 {
+  .case-study-intro .case-study-text h1 {
     font-size: 5vw !important;
   }
 
-  .case-study-text h2 {
+  .case-study-intro .case-study-text h2 {
     font-size: 3.5vw !important;
   }
 
-  .case-study-text p {
+  .case-study-intro .case-study-text p {
     font-size: 2.5vw !important;
   }
 
-  .case-study-image {
+  .case-study-intro .case-study-image {
     width: 100% !important;
-    order: 2 !important; /* Ensures the image is below */
+    order: 2 !important; /* Ensures only the intro image moves below */
     margin-top: 3vw !important;
   }
 
-  .case-study-image img {
+  .case-study-intro .case-study-image img {
     max-width: 100% !important;
   }
 }
