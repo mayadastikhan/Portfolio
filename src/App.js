@@ -149,7 +149,7 @@ function App() {
 
               {/* Right Image Section */}
               <div className="case-study-image">
-                <img src="public/Frame 1 (2).png" alt="Epic EMT Handoff Portal UI" />
+                <img src="/Frame 1 (2).png" alt="Epic EMT Handoff Portal UI" />
               </div>
             </section>
              <section className="overview">
@@ -444,9 +444,9 @@ function App() {
                   <img src="/images/alternative-2.png" alt="Alternative Layout - Tabbed Navigation" />
                 </div>
                 <ul>
-                  <li><strong>List-Based Handoff:</strong> EMTs found this intuitive but wanted a **quicker, more visual approach.</li>
+                  <li><strong>List-Based Handoff:</strong> EMTs found this intuitive but wanted a quicker, more visual approach.</li>
                   <li><strong>Tabbed Navigation:</strong> ER staff preferred this for medication ordering, but it required too many clicks.</li>
-                  <li><strong>Best Practices:</strong> Users preferred a single, streamlined interface with collapsible sections**.</li>
+                  <li><strong>Best Practices:</strong> Users preferred a single, streamlined interface with collapsible sections.</li>
                 </ul>
               </div>
 

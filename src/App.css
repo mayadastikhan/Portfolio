@@ -1282,6 +1282,12 @@ body.case-study-active {
   margin-left: auto;
   margin-right: auto;
 }
+.case-study-image img {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 .nav-button.feline-research:hover {
   color: #0073e6;
 }
