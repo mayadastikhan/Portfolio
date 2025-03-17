@@ -6,6 +6,7 @@ import userPersona from "../src/UserPersona (1).png";
 import userFlow from "../src/UserFlow (1).png";
 import UxFlowDrawn from "../src/UxFlowDrawn.png";
 import lowfi from "../src/LowFi.png";
+import lowfiMedOrder from "../src/lowFiMedOrder.png";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -312,7 +313,7 @@ function App() {
                   <li><strong>Auto-fills past prescriptions</strong> for returning patients.</li>
                 </ul>
                 <div className="design-image">
-                  <img src="/images/medication-ordering.png" alt="Medication Ordering UI" />
+                  <img src={lowfiMedOrder} alt="Medication Ordering UI" />
                 </div>
               </div>
               </div>
