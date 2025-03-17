@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cbe33085.css",
-    "main.js": "/Portfolio/static/js/main.5162a41a.js",
+    "main.js": "/Portfolio/static/js/main.ae6e5ccc.js",
     "static/js/488.f30ea4ab.chunk.js": "/Portfolio/static/js/488.f30ea4ab.chunk.js",
     "static/media/Hi-Fi Prototype for UX Flow 3.png": "/Portfolio/static/media/Hi-Fi Prototype for UX Flow 3.7db8bd90df632071b6dc.png",
     "static/media/UserFlow (1).png": "/Portfolio/static/media/UserFlow (1).777be61c58b64c814eff.png",
+    "static/media/EMT Portal Alternative Screens.png": "/Portfolio/static/media/EMT Portal Alternative Screens.d939463705d45f4636ba.png",
     "static/media/UxFlowDrawn.png": "/Portfolio/static/media/UxFlowDrawn.f8bfd26ff0f874734fcd.png",
     "static/media/UserPersona (1).png": "/Portfolio/static/media/UserPersona (1).863a27e5479d18c4e253.png",
     "static/media/Component 1.png": "/Portfolio/static/media/Component 1.89a294cc07015dd49fdc.png",
     "static/media/emtPortalAlt.png": "/Portfolio/static/media/emtPortalAlt.ef3a234abdcd4d99cc1f.png",
     "static/media/emtPortal.png": "/Portfolio/static/media/emtPortal.fa1b41f277327df6002d.png",
+    "static/media/Before and After Stories 2.png": "/Portfolio/static/media/Before and After Stories 2.24454fff1fc6bf2a0dcd.png",
+    "static/media/Before and After Stories 1.png": "/Portfolio/static/media/Before and After Stories 1.c20c858e27c6e1a17fcc.png",
     "static/media/EpicCaseStudyImg.png": "/Portfolio/static/media/EpicCaseStudyImg.089dfebf40360b56457d.png",
     "static/media/LowFi.png": "/Portfolio/static/media/LowFi.be461c88ae048a61b6d6.png",
     "static/media/earlyHiFi.png": "/Portfolio/static/media/earlyHiFi.e35f490043a5be162d7b.png",
@@ -22,11 +25,11 @@
     "static/media/magilioregular-8mxvg-webfont.woff2": "/Portfolio/static/media/magilioregular-8mxvg-webfont.0de68296b4323ca5d266.woff2",
     "index.html": "/Portfolio/index.html",
     "main.cbe33085.css.map": "/Portfolio/static/css/main.cbe33085.css.map",
-    "main.5162a41a.js.map": "/Portfolio/static/js/main.5162a41a.js.map",
+    "main.ae6e5ccc.js.map": "/Portfolio/static/js/main.ae6e5ccc.js.map",
     "488.f30ea4ab.chunk.js.map": "/Portfolio/static/js/488.f30ea4ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbe33085.css",
-    "static/js/main.5162a41a.js"
+    "static/js/main.ae6e5ccc.js"
   ]
 }
