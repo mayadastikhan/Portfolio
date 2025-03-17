@@ -474,7 +474,9 @@ function App() {
                 <div className="ux-images">
                   <img src={hiFiFinalMedOrder} alt="Final High-Fidelity Prototype - Medication Ordering System" />
                   <img src={hiFiFinalEmtPortal} alt="Final High-Fidelity Prototype -Streamlined EMT Handoff" />
-                  <img src={beforeAfter2} alt="Patient Chart Screen Before and After" />
+                </div>
+                <div className="ux-images">
+                <img src={beforeAfter2} alt="Patient Chart Screen Before and After" />
                   <img src={beforeAfter1} alt="Medical Ordering Screen Before and After" />
                 </div>
               </div>
