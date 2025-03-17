@@ -9,6 +9,8 @@ import lowfi from "../src/LowFi.png";
 import lowfiMedOrder from "../src/lowFiMedOrder.png";
 import emtPortal from "../src/emtPortal.png";
 import earlyHiFi from "../src/earlyHiFi.png"
+import medOrderAlt from "../src/medOrderAlt.png"
+import emtPortalAlt from "../src/emtPortalAlt.png"
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -447,8 +449,8 @@ function App() {
                   Below are some alternative layouts we tested and the preferences expressed by our users.
                 </p>
                 <div className="ux-images">
-                  <img src="/images/alternative-1.png" alt="Alternative Layout - List-Based Handoff" />
-                  <img src="/images/alternative-2.png" alt="Alternative Layout - Tabbed Navigation" />
+                  <img src={medOrderAlt} alt="Alternative Layout - List-Based Handoff" />
+                  <img src={emtPortalAlt} alt="Alternative Layout - Tabbed Navigation" />
                 </div>
                 <ul>
                   <li><strong>List-Based Handoff:</strong> EMTs found this intuitive but wanted a quicker, more visual approach.</li>
@@ -488,7 +490,7 @@ function App() {
             </section>
 
             <footer className="cta">
-              <p>Want to see it in action? <a href="INSERT_FIGMA_LINK">Check out the Figma Prototype</a></p>
+              <p>Want to see it in action? <a href="https://www.figma.com/proto/bAuQXehyU77uBjndiSqJEQ/Designs?node-id=78-320&t=CI5ObZLVk6jSCPYv-1">Check out the Figma Prototype</a></p>
             </footer>
             <button onClick={() => setActiveSection("home")} className="back-button">
               Back to Case Studies →
