@@ -323,7 +323,9 @@ a{
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
+
 .case-study-intro {
+  padding: 3vw 4vw !important;
   display: flex;
   flex-direction: row; /* Keep image & text side by side */
   align-items: center;
@@ -340,67 +342,48 @@ body.case-study-active {
 }
 
 .case-study-intro {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 5%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh; /* Ensures it takes the full screen */
-  scroll-snap-align: start;
-  padding: 5%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  width: 70%;
-  max-width: 1200px;
-  min-width: 300px;
-  height: auto;
-  width: 70%;
-  height: 100vh;
-  max-width: 1200px;
-  min-width: 300px;
-  margin: 0 auto;  /* Center align section */
-  padding: 50px 0;  /* Add spacing */
-  text-align: left;  /* Ensure left alignment */
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important; /* Ensures proper spacing */
+  gap: 30px !important;
+  margin-bottom: 40px !important;
+  width: 70% !important;
+  max-width: 1200px !important;
+  text-align: left !important;
+  min-width: 300px !important;
+  height: auto !important;
+  padding: 3vw !important;
 }
 .case-study-text {
-  width: 50%;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 15px;
-  padding-right: 5%;
-  padding: 20px;  /* Reduce padding */
-  margin-bottom: 0; /* Remove extra space below */
+  width: 50% !important;
+  text-align: left !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  gap: 15px !important;
+  padding-right: 5% !important;
 }
 
 .case-study-text h1 {
-  font-size: 4vw;
-  font-weight: 700;
-  color: #D64545; 
-  margin-bottom: 10px;
+  font-size: 3vw !important;
+  font-weight: 700 !important;
+  color: #D64545 !important;
+  margin-bottom: 10px !important;
+  text-align: left !important;
 }
 
 .case-study-text h2 {
-  font-size: 2vw;
-  font-weight: 600;
-  color: #2276B8; /* Blue Subtitle */
-  margin-bottom: 20px;
+  font-size: 2vw !important;
+  font-weight: 600 !important;
+  color: #2276B8 !important;
+  margin-bottom: 20px !important;
 }
 
 .case-study-text p {
-  font-size: 1.5vw;
-  color: #333;
-  line-height: 1.6;
+  font-size: 1.5vw !important;
+  color: #333 !important;
+  line-height: 1.6 !important;
 }
 .case-study-image
  {
@@ -412,18 +395,358 @@ body.case-study-active {
 }
 
 .case-study-image img {
-  width: 100%;
-  max-width: 800px; /* Adjust based on your design */
-  height: auto;
-  object-fit: contain;
+  width: 100% !important;
+  max-width: 600px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
 }
 
-.overview,
-.problem-statement,
-.research,
-.design,
-.impact,
-.next-steps { 
+/* LEFT TEXT SECTION */
+.case-study-text {
+  width: 50% !important;
+  text-align: left !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  gap: 15px !important;
+  padding-right: 5% !important;
+}
+
+/* HEADERS */
+.case-study-text h1 {
+  font-size: 3vw !important;
+  font-weight: 700 !important;
+  color: #D64545 !important;
+  margin-bottom: 10px !important;
+}
+
+.case-study-text h2 {
+  font-size: 2vw !important;
+  font-weight: 600 !important;
+  color: #136896 !important; /* Blue Subtitle */
+  margin-bottom: 20px !important;
+}
+
+/* PARAGRAPH */
+.case-study-text p {
+  font-size: 1.5vw !important;
+  color: #333 !important;
+  line-height: 1.6 !important;
+}
+
+/* RIGHT IMAGE SECTION */
+.case-study-image {
+  width: 50% !important;
+  min-width: 300px !important;
+  height: auto !important;
+  transition: transform 0.3s ease !important;
+  border-radius: 15px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.case-study-image img {
+  width: 100% !important;
+  max-width: 800px !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+
+.research {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5vh 0;
+  text-align: left;
+}
+
+/* SECTION HEADER */
+.research-intro {
+  padding: 3vw;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.research-intro h2 {
+  font-size: 2vw;
+  color: #136896;
+  font-weight: bold;
+}
+
+.research-intro h2 {
+  font-size: 2.5vw;
+  color: #136896;
+  font-weight: bold;
+}
+
+.research-intro p,
+.overview p,
+.conclusion p,
+.problem-statement p,
+.ux-flow-evolution p,
+.design-intro p {
+  font-size: 1.5vw;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* STAKEHOLDER SECTION */
+.stakeholder,
+.key-takeaways {
+  padding: 2vw;
+  background-color:#f5f5f5;
+  border-left: 5px solid #2276B8;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stakeholder h3 {
+  font-size: 2vw;
+  color: #2276B8;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stakeholder ul {
+  padding-left: 20px;
+}
+
+.stakeholder li {
+  font-size: 1.2vw;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+
+
+/* HEADER - SAME AS STAKEHOLDER */
+.key-takeaways h3 {
+  font-size: 1.7vw;
+  color: #2276B8;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* LIST STYLE */
+.key-takeaways ul {
+  padding-left: 2vw;
+}
+
+.key-takeaways li {
+  font-size: 1.1vw;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 900px) {
+  .key-takeaways,
+  .stakeholder,
+  .design-intro,
+  .ux-process,
+.design-feature  {
+    width: 90%;  /* Ensures it scales proportionally */
+    padding: 3vw;
+    max-width: none;  /* Prevents fixed width issues */
+  }
+
+  .key-takeaways h3 {
+    font-size: .5vw;
+  }
+
+  .key-takeaways li {
+    font-size: 1.5vw;
+  }
+}
+
+
+  .case-study-text h1 {
+    font-size: 3.5vw;
+  }
+
+  .case-study-text h2 {
+    font-size: 2.5vw;
+  }
+
+  .case-study-text p {
+    font-size: 2vw;
+  }
+
+  .case-study-image img {
+    max-width: 70%;
+    max-height: 50vw;
+  }
+
+  .case-study-intro {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .case-study-text {
+    width: 100%;
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .case-study-image {
+    width: 100%;
+    justify-content: center;
+    margin-top: 2vw;
+  }
+
+/* Mobile View */
+@media (max-width: 600px) {
+  .case-study-intro,
+  .overview,
+  .problem-statement,
+  .research,
+  .design,
+  .impact,
+  .ux-flow-evolution,
+  .conclusion,
+  .design-intro {
+    padding: 2vw 3vw;  /* Even smaller padding for small screens */
+  }
+
+  .case-study-text h1 {
+    font-size: 4vw;
+  }
+
+  .case-study-text h2 {
+    font-size: 3vw;
+  }
+
+  .case-study-text p {
+    font-size: 2.5vw;
+  }
+
+  .case-study-image img {
+    max-width: 80%;
+  }
+}
+
+
+
+.design {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5vh 0;
+  text-align: left;
+}
+
+
+.design-intro h2 {
+  font-size: 2vw;
+  color: #136896;
+  font-weight: bold;
+}
+
+/* Section Headers */
+.design h2 {
+  font-size: 2.5vw;
+  color: #136896;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Section Paragraphs */
+.design p {
+  font-size: 1.5vw;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* UX Process & Features */
+.ux-process {
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2vw;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.design-feature{
+  padding: 2vw;
+  margin-bottom: 30px;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+}
+
+/* Subsection Titles */
+.ux-process h3,
+.design-feature h3 {
+  font-size: 3vw;
+  color: #D64545;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Bullet Points */
+.ux-process ul,
+.design-feature ul {
+  padding-left: 20px;
+}
+
+.ux-process li,
+.design-feature li {
+  font-size: 1.2vw;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Image Containers */
+.design-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.design-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* UX Flow Styling */
+.ux-flow {
+  background: #fff8e1;
+  padding: 2vw;
+  border-left: 5px solid #E6AF2E;
+  margin-bottom: 30px;
+}
+
+/* Personas & Low-Fidelity Prototypes */
+.personas,
+.lowfi-prototypes {
+  background: #fff8e1;
+  padding: 2vw;
+  border-left: 5px solid #E6AF2E;
+  margin-bottom: 30px;
+}
+
+/* IMPACT SECTION - MATCHES DESIGN & RESEARCH */
+.impact {
   width: 70vw;
   max-width: 1200px;
   min-width: 300px;
@@ -433,120 +756,128 @@ body.case-study-active {
   justify-content: center;
   align-items: flex-start;
   scroll-snap-align: start;
-  padding: 5vw 0;
+  padding: 0;
 }
 
-.overview h2,
-.problem-statement h2,
-.research h2,
-.design h2,
+/* HEADERS */
 .impact h2,
-.next-steps h2{
-  font-size: 2vw;  /* Large title */
+.impact h3 {
+  font-size: 2vw;
   font-weight: 700;
-  color: #136896;  /* Distinguish the title */
-  display: block;  /* Ensures it takes full width */
+  color: #136896;
+  display: block;
 }
-.overview p,
-.problem-statement p,
-.research p,
-.design p,
-.impact p,
-.next-steps p {
-  font-size: 1.2rem;
+
+/* PARAGRAPH TEXT */
+.impact p {
+  font-size: 1.5vw;
   line-height: 1.6;
   color: #333;
+  margin-top: 0;
   text-align: left;
 }
-.research-section h2 {
-  font-size: 2vw;
-  font-weight: bold;
-  color: #136896;
-  text-align: center;
-}
-.research.intro h2{
-  font-size: 1.7vw;
 
-}
-
-.stakeholder {
-  margin-top: 20px;
-  padding: 20px;
-  border-left: 5px solid #2276B8;
-}
-
-.stakeholder h3 {
-  font-size: 1.7vw;
-  color: #D64545;
-  margin-bottom: 10px;
-}
-
-.stakeholder ul {
-  padding-left: 20px;
-}
-
-.stakeholder li {
-  font-size: 1.1vw;
-  line-height: 1.6;
-}
-
+/* UX TESTING & ALTERNATIVES */
+.ux-testing,
+.key-improvements,
 .key-takeaways {
   background: #f5f5f5;
-  padding: 20px;
-  margin-top: 30px;
-  border-radius: 8px;
+  padding: 2vw;
+  border-left: 5px solid #2276B8;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* HEADERS INSIDE TESTING SECTIONS */
+.ux-testing h3,
+.key-improvements h3,
 .key-takeaways h3 {
   font-size: 1.7vw;
-  color: #136896;
+  color: #2276B8;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
+/* LIST ITEMS */
+.ux-testing ul,
+.key-improvements ul,
 .key-takeaways ul {
-  padding-left: 20px;
+  padding-left: 2vw;
 }
 
+.ux-testing li,
+.key-improvements li,
 .key-takeaways li {
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 900px) {
-  .case-study-page {
-    padding: 40px 15px;
+  .impact,
+  .medication-ordering,
+  .ux-testing,
+  .key-improvements,
+  .key-takeaways,
+  .prototype-section,{
+    width: 90%;
+    padding: 3vw;
+    max-width: none;  /* Prevents fixed width issues */
   }
 
-  .case-study-page h1 {
-    font-size: 2rem;
+  .impact h2,
+  .medication-ordering h2,
+  .ux-testing h3,
+  .key-takeaways h3,
+  .stakeholder h3{
+    font-size: 3.5vw;
   }
 
-  .case-study-page h2 {
-    font-size: 1.5rem;
+  .impact p,
+  .medication-ordering p,
+  .ux-testing p {
+    font-size: 2vw;
   }
 
-  .case-study-page p {
-    font-size: 1.1rem;
+  .impact li,
+  .medication-ordering li,
+  .ux-testing li {
+    font-size: 1.5vw;
   }
 }
-@media (max-width: 768px) {
-  .case-study-page {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+
+/* MOBILE FIXES */
+@media (max-width: 600px) {
+  .impact,
+  .medication-ordering,
+  .ux-testing {
+    width: 95%;
+    padding: 4vw;
   }
 
-  .case-study-text,
-  .case-study-image {
-    width: 100%;
-    padding: 0;
+  .impact h2,
+  .medication-ordering h2,
+  .ux-testing h3 {
+    font-size: 3vw;
   }
 
-  .overview {
-    flex-direction: column;
-    align-items: center;
+  .impact p,
+  .medication-ordering p,
+  .ux-testing p {
+    font-size: 2.5vw;
+  }
+
+  .impact li,
+  .medication-ordering li,
+  .ux-testing li {
+    font-size: 2vw;
   }
 }
+
 .nav-button.feline-research {
   font-family: 'Magilio', sans-serif;
   font-size: 1.5rem;
@@ -555,6 +886,376 @@ body.case-study-active {
   color: #227C9D;
 }
 
+.ux-flow-evolution {
+  width: 70vw;
+  max-width: 1200px;
+  min-width: 300px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  scroll-snap-align: start;
+  padding: 0;
+}
+
+/* Section Headers */
+.ux-flow-evolution h2 {
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #136896;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.ux-flow-evolution p {
+  font-size: 1.5vw;
+  line-height: 1.6;
+  color: #333;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Prototype Sections */
+.prototype-section {
+  background: #f9f9f9;
+  padding: 2vw;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Subsection Titles */
+.prototype-section h3 {
+  font-size: 2vw;
+  color: #D64545;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Bullet Points */
+.prototype-section ul {
+  padding-left: 20px;
+}
+
+.prototype-section li {
+  font-size: 1.2vw;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* UX Image Display */
+.ux-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ux-images img {
+  width: 48%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Fixes */
+@media (max-width: 900px) {
+  .ux-flow-evolution {
+    width: 90%;
+    padding: 3vw;
+    max-width: none;  /* Prevents fixed width issues */
+  }
+  .prototype-section {
+    width: 90%;
+    padding: 3vw;
+    max-width: none;  /* Prevents fixed width issues */
+  }
+
+  .ux-flow-evolution h2 {
+    font-size: 4vw;
+  }
+
+  .ux-flow-evolution p,
+  .prototype-section li {
+    font-size: 2vw;
+  }
+  .prototype-section h3{
+    font-size: 3.5vw;
+  }
+
+  .ux-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ux-images img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ux-flow-evolution {
+    width: 90%;
+    padding: 3vw;
+    max-width: none;  /* Prevents fixed width issues */
+  }
+
+  .ux-flow-evolution h2 {
+    font-size: 5vw;
+  }
+
+  .ux-flow-evolution p,
+  .prototype-section li {
+    font-size: 2.5vw;
+  }
+
+  .ux-images img {
+    width: 100%;
+  }
+}
+
+/* Section Headers */
+.conclusion h2,
+.overview h2,
+.problem-statement h2,
+.research-intro h2,
+.design-intro h2{
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #136896;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+
+/* Key Takeaways List */
+.conclusion ul {
+  background: #f5f5f5;
+  padding: 2vw;
+  border-left: 5px solid #2276B8;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1100px;
+  margin-bottom: 30px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conclusion li {
+  font-size: 1.2vw;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Responsive Fixes */
+@media (max-width: 900px) {
+  .conclusion, 
+  .overview,
+  .problem-statement,
+  .research-intro,
+  .design-intro,
+  .design-feature {
+    width: 90% important!;  /* Ensures it scales proportionally */
+    padding: 3vw important!;
+    max-width: none important!;  /* Prevents fixed width issues */
+  }
+
+  .conclusion h2, 
+  .overview h2,
+  .problem-statement h2,
+  .research-intro h2,
+  .design-intro h2 {
+    font-size: 4vw important!;
+  }
+
+  .conclusion p,
+  .conclusion li,
+  .overview p,
+  .problem-statement p,
+  .research-intro p,
+  .design-intro p {
+    font-size: 2vw important!;
+  }
+}
+
+@media (max-width: 600px) {
+  .conclusion ul,
+  .design-feature{
+    width: 90%;  /* Ensures it scales proportionally */
+    padding: 3vw;
+    max-width: none;  /* Prevents fixed width issues */
+  }
+
+  .conclusion h2,
+  .overview h2,
+  .problem-statement h2,
+  .research-intro h2,
+  .design-intro h2 {
+    font-size: 5vw;
+  }
+
+  .conclusion p,
+  .conclusion li,
+  .overview p,
+  .problem-statement p,
+  .research-intro p,
+  .design-intro p {
+    font-size: 2.5vw;
+  }
+}
+/* CTA Footer */
+.cta {
+  width: 70vw;
+  max-width: 1100px;
+  min-width: 300px;
+  padding: 2vw;
+  text-align: center;
+  margin: 3vw auto 2vw;
+  font-size: 1.5vw;
+}
+
+/* CTA Text */
+.cta p {
+  font-size: 1.5vw;
+  line-height: 1.6;
+  color: #333;
+  font-weight: 500;
+}
+
+/* CTA Link */
+.cta a {
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #136896;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.cta a:hover {
+  color: #0b4c75;
+  text-decoration: underline;
+}
+
+/* Back Button */
+.back-button {
+  display: block;
+  width: fit-content;
+  margin: 2vw auto;
+  padding: 1vw 2vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: #ffffff;
+  background: #2276B8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.back-button:hover {
+  background: #0b4c75;
+  transform: scale(1.05);
+}
+
+/* Responsive Fixes */
+@media (max-width: 900px) {
+  .cta {
+    width: 85%;
+    font-size: 2vw;
+  }
+
+  .cta p, .cta a {
+    font-size: 2vw;
+  }
+
+  .back-button {
+    font-size: 2vw;
+    padding: 2vw 4vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta {
+    width: 90%;
+    font-size: 2.5vw;
+  }
+}
+.impact {
+  margin-bottom: 30px;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 900px) {
+  .impact,
+  .ux-testing,
+  .medication-ordering {
+    width: 90%;  /* Ensures it scales proportionally */
+    padding: 3vw;
+    max-width: none;  /* Prevents fixed width issues */
+  }
+
+  .impact h2,
+  .ux-testing h3,
+  .key-improvements h3 {
+    font-size: 3.5vw;
+  }
+
+  .impact p,
+  .ux-testing p {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .impact,
+  .ux-testing,
+  .medication-ordering {
+    width: 90%;  /* Ensures it scales proportionally */
+    padding: 3vw;
+    max-width: none;  /* Prevents fixed width issues */
+  }
+
+  .impact h2 {
+    font-size: 5vw;
+  }
+
+  .impact p,
+  .ux-testing p {
+    font-size: 2.5vw;
+  }
+}
+
+/* IMPACT, UX FLOW, AND CONCLUSION - MATCH STAKEHOLDER PADDING */
+.impact,
+.ux-flow-evolution,
+.conclusion,
+.overview,
+.problem-statement,
+.research-intro {
+  width: 70vw !important;
+  max-width: 1100px !important;
+  min-width: 300px !important;
+  min-height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  scroll-snap-align: start !important;
+  padding: 3vw 4vw !important; /* MATCHES RESEARCH & STAKEHOLDERS */
+  margin-bottom: 30px !important;
+  border-radius: 10px !important;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .nav-button.feline-research:hover {
   color: #0073e6;
 }

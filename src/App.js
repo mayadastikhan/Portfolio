@@ -27,7 +27,7 @@ function App() {
                 />
                 <div className="case-study-details">
                   <a
-                    href="case-studies-epic-redesign"
+                    href="#"
                     onClick={() => setActiveSection("caseStudy1")}
                     className="case-study-title"
                   >
@@ -175,13 +175,14 @@ function App() {
               </p>
             </section>
 
-            <section className="research">
-              <div className="research-intro">
+            <section className="research-intro">
                 <h2>Research & Insights</h2>
                 <p>To fully understand these pain points, we conducted user interviews and usability 
                 testing with our key stakeholders:
                 </p>
-              </div>
+              </section>
+
+            <section className="research">
 
               <div className="stakeholder">
                 <h3>Dr. Sofia Dasti (Emergency Physician)</h3>
@@ -208,48 +209,276 @@ function App() {
               <ul>
                 <li>Epic’s system is robust but has <strong>usability barriers</strong> that slow emergency workflows.</li>
                 <li>Login delays, complex order entry, and documentation burdens impact patient care.</li>
-                <li>Real-time data sharing, streamlined login processes, and better customization training could enhance efficiency.</li>
+                <li>Real-time data sharing and better customization training could enhance efficiency.</li>
               </ul>
             </div>
             </section>
 
             <section className="design">
-              <h3>The Solution: A Smarter EMT Handoff Portal</h3>
-              <p>We redesigned the **EMT-to-ER patient handoff** to improve speed, clarity, and hospital readiness.</p>
-              
-              <h4>EMT Handoff Portal</h4>
-              <ul>
-                <li><strong>Auto-detects nearest hospital</strong> & pre-fills details.</li>
-                <li><strong>One-tap patient handoff</strong> that updates the hospital’s tracking board instantly.</li>
-                <li><strong>EMT priority alerts</strong> highlight incoming critical patients.</li>
-              </ul>
+              {/* Title Section */}
+              <div className="design-intro">
+                <h2>The Solution: A Smarter EMT Handoff Portal</h2>
+                <p>
+                  We redesigned the <strong>EMT-to-ER patient handoff</strong> to improve speed, 
+                  clarity, and hospital readiness. Our design process was driven by <strong>user research</strong>, 
+                  <strong>iterative testing</strong>, and <strong>real-time data integration</strong> to create a 
+                  <strong> seamless</strong> and <strong>intuitive</strong> solution for EMTs and hospital staff.
+                </p>
+              </div>
 
-              <h4>Medication Ordering System</h4>
-              <ul>
-                <li> **Pre-set dosage selection** for quick orders.</li>
-                <li> **Urgent order bypass** for emergencies.</li>
-                <li> **Auto-fills past prescriptions** for returning patients.</li>
-              </ul>
+              {/* UX Design Process */}
+              <div className="ux-process">
+                <h3>UX Design Process</h3>
+                <p>
+                  Our iterative design approach focused on solving real user pain points. Through 
+                  <strong> user research, prototype testing, and feedback loops</strong>, we developed a solution 
+                  that significantly improves emergency workflows.
+                </p>
+
+                {/* Personas Section */}
+                <div className="personas">
+                  <h4>Understanding Our Users</h4>
+                  <p>
+                    We created <strong>personas</strong> representing <strong>EMTs</strong>, <strong>ER physicians</strong>, 
+                    and <strong>nurses</strong> to better understand their needs and frustrations. This helped us define the 
+                    core functionalities of the system.
+                  </p>
+                  <div className="design-image">
+                    <img src="/images/personas.png" alt="User Personas" />
+                  </div>
+                </div>
+
+                {/* Low-Fidelity Prototypes Section */}
+                <div className="lowfi-prototypes">
+                  <h4>Low-Fidelity Prototypes</h4>
+                  <p>
+                    We started with <strong>paper sketches</strong> and <strong>wireframes</strong>, testing different 
+                    workflows with users. These early tests allowed us to refine the most 
+                    intuitive interactions before moving to high-fidelity designs.
+                  </p>
+                  <div className="design-image">
+                    <img src="/images/lowfi-prototypes.png" alt="Low-Fidelity Wireframes" />
+                  </div>
+                </div>
+
+                {/* UX Flow Section */}
+                <div className="ux-flow">
+                  <h4>UX Flow Refinement</h4>
+                  <p>
+                    Our final <strong>UX Flow</strong> enables <strong>real-time patient handoff</strong> by reducing manual 
+                    data entry and highlighting urgent cases, ensuring that hospitals can prepare 
+                    <strong> before</strong> the patient arrives.
+                  </p>
+                  <div className="design-image">
+                    <img src="/images/ux-flow.png" alt="Final UX Flow" />
+                  </div>
+              </div>
+
+              {/* EMT Handoff Portal Section */}
+              <div className="design-feature">
+                <h3>EMT Handoff Portal</h3>
+                <p>
+                  The <strong>EMT Handoff Portal</strong> enables emergency responders to <strong>transmit critical 
+                  patient data</strong> instantly, reducing cognitive load and improving hospital preparedness.
+                </p>
+                <ul>
+                  <li><strong>Auto-detects nearest hospital</strong> & pre-fills patient details.</li>
+                  <li><strong>One-tap patient handoff</strong> updates the hospital’s tracking board instantly.</li>
+                  <li><strong>EMT priority alerts</strong> highlight incoming critical patients.</li>
+                </ul>
+                <div className="design-image">
+                  <img src="/images/emt-portal.png" alt="EMT Handoff Portal UI" />
+                </div>
+              </div>
+
+              {/* Medication Ordering System Section */}
+              <div className="design-feature">
+                <h3>Medication Ordering System</h3>
+                <p>
+                  Our <strong>Medication Ordering System</strong> minimizes errors and improves efficiency by 
+                  enabling <strong>faster</strong>, <strong>safer</strong>, and <strong>more accurate</strong> medication orders.
+                </p>
+                <ul>
+                  <li><strong>Pre-set dosage selection</strong> for quick and accurate orders.</li>
+                  <li><strong>Urgent order bypass</strong> for high-priority cases.</li>
+                  <li><strong>Auto-fills past prescriptions</strong> for returning patients.</li>
+                </ul>
+                <div className="design-image">
+                  <img src="/images/medication-ordering.png" alt="Medication Ordering UI" />
+                </div>
+              </div>
+              </div>
             </section>
 
             <section className="impact">
-              <h3>The Impact</h3>
-              <p>By cutting **10+ minutes of wasted time per critical case**, our system allows hospitals to act faster.</p>
-              <ul>
-                <li> <strong>Doctors</strong> can **call in specialists sooner**, preventing delays in trauma & cardiac cases.</li>
-                <li> <strong>Nurses</strong> get **clearer patient data upfront**, allowing faster **room prep & IV setup**.</li>
-                <li> <strong>Techs & Radiologists</strong> receive **early imaging & test requests**, reducing ER congestion.</li>
-                <li> <strong>EMTs</strong> spend **less time on paperwork**, focusing more on **patient care**.</li>
-              </ul>
+              {/* Title Section */}
+              <div className="impact-intro">
+                <h2>Enhancing Emergency Workflows</h2>
+                <p>
+                  Our final solution significantly reduces inefficiencies, cutting down 
+                  wasted time by over <strong>10 minutes per critical case</strong>. 
+                  This ensures that emergency teams can respond **faster and more accurately**.
+                </p>
+              </div>
+
+              {/* User Testing Insights */}
+              <div className="ux-testing">
+                <h3>User Testing & Findings</h3>
+                <p>
+                  During testing, we presented multiple workflow prototypes to 
+                  <strong> ER physicians</strong> and <strong>triage nurses</strong>. 
+                  Their feedback helped refine our final design.
+                </p>
+
+                {/* Alternative Designs Explored */}
+                <div className="alternative-designs">
+                  <h4>Alternative Approaches Explored</h4>
+                  <ul>
+                    <li>
+                      <strong>Prototype A:</strong> Focused on streamlining the **medication ordering process** with a bypass feature.
+                    </li>
+                    <li>
+                      <strong>Prototype B:</strong> Emphasized real-time **EMT patient tracking** with pre-filled intake forms.
+                    </li>
+                  </ul>
+                  <p>
+                    <strong>Final Decision:</strong> Users preferred a <strong>hybrid approach</strong>, integrating the 
+                    <strong>urgent medication bypass</strong> from Prototype A and the 
+                    <strong>real-time patient tracking board</strong> from Prototype B. 
+                  </p>
+                </div>
+              </div>
+
+              {/* Key Improvements Based on User Feedback */}
+              <div className="key-improvements">
+                <h3>Key Refinements Based on User Feedback</h3>
+
+                {/* Patient Intake & Registration */}
+                <div className="improvement">
+                  <h4>Streamlined Patient Intake</h4>
+                  <ul>
+                    <li><strong>Quick Registration</strong> for high-severity cases, bypassing non-essential fields.</li>
+                    <li><strong>Pre-filled EMT Data</strong> enabling faster handoff and room assignments.</li>
+                    <li><strong>Temporary Name Generator</strong> for unidentified patients, preventing confusion.</li>
+                  </ul>
+                </div>
+
+                {/* Medication Ordering Optimization */}
+                <div className="improvement">
+                  <h4>Optimized Medication Ordering</h4>
+                  <ul>
+                    <li><strong>One-tap medication ordering</strong> for life-threatening emergencies.</li>
+                    <li><strong>Urgent order bypass</strong> that enables immediate prescribing.</li>
+                    <li><strong>Auto-fill past prescriptions</strong> for returning patients.</li>
+                  </ul>
+                </div>
+
+                {/* EMT Tracking Board */}
+                <div className="improvement">
+                  <h4>Enhanced EMT Tracking Board</h4>
+                  <ul>
+                    <li><strong>Critical patients highlighted</strong> to improve visibility for triage teams.</li>
+                    <li><strong>Direct communication with EMTs</strong> for real-time patient updates.</li>
+                    <li><strong>Severity indicators</strong> to help detect deteriorating conditions at a glance.</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Key Takeaways */}
+              <div className="key-takeaways">
+                {/* Final Takeaways (Stakeholder Insights) */}
+                <h3>Stakeholder Insights & Final Takeaways</h3>
+                  <ul>
+                    <li>
+                      <strong>ER physicians emphasized the need for immediate access</strong> to real-time 
+                      <strong> patient vitals and arrival estimates</strong>, leading to the integration 
+                      of <strong>live status updates</strong> in our final design.
+                    </li>
+                    <li>
+                      <strong>Nurses found manual intake to be the biggest bottleneck</strong>, 
+                      prompting the addition of <strong>automated patient pre-registration</strong> 
+                      and <strong>one-tap intake confirmation</strong>.
+                    </li>
+                    <li>
+                      <strong>EMTs wanted a more flexible way to report critical patients</strong>, 
+                      which resulted in a <strong>dedicated priority alert system</strong> that sends 
+                      <strong>urgent notifications to ER dashboards</strong>.
+                    </li>
+                    <li>
+                      <strong>Epic software trainers highlighted usability challenges</strong>, leading 
+                      to <strong>simplified workflows with reduced clicks</strong> and <strong>pre-set templates</strong>.
+                    </li>
+                  </ul>
+                </div>
+            </section>
+            {/* UX Flow Evolution Section */}
+            <section className="ux-flow-evolution">
+              <h2>Evolution of UX Flow & High-Fidelity Prototypes</h2>
+              <p>
+                Our design process involved multiple iterations of the UX flow based on user testing. 
+                Below, we showcase our early high-fidelity prototypes, alternative concepts considered, 
+                and the final version refined after user feedback.
+              </p>
+
+              {/* Initial High-Fidelity Prototypes */}
+              <div className="prototype-section">
+                <h3>Early High-Fidelity Prototypes</h3>
+                <p>
+                  Our first high-fidelity designs focused on **streamlining the EMT handoff process** and **simplifying medication orders**. 
+                  These designs were tested with EMTs and ER staff to evaluate usability and workflow efficiency.
+                </p>
+                <div className="ux-images">
+                  <img src="/images/early-hifi-1.png" alt="Early High-Fidelity Prototype - EMT Portal" />
+                  <img src="/images/early-hifi-2.png" alt="Early High-Fidelity Prototype - Medication Orders" />
+                </div>
+              </div>
+
+              {/* Alternative Concepts & User Preferences */}
+              <div className="prototype-section">
+                <h3>Alternative Concepts & User Preferences</h3>
+                <p>
+                  Throughout testing, we explored different **data presentation formats, navigation styles, and user inputs**. 
+                  Below are some alternative layouts we tested and the preferences expressed by our users.
+                </p>
+                <div className="ux-images">
+                  <img src="/images/alternative-1.png" alt="Alternative Layout - List-Based Handoff" />
+                  <img src="/images/alternative-2.png" alt="Alternative Layout - Tabbed Navigation" />
+                </div>
+                <ul>
+                  <li><strong>List-Based Handoff:</strong> EMTs found this intuitive but wanted a **quicker, more visual approach**.</li>
+                  <li><strong>Tabbed Navigation:</strong> ER staff preferred this for medication ordering, but it required **too many clicks**.</li>
+                  <li><strong>Best Practices:</strong> Users preferred **a single, streamlined interface with collapsible sections**.</li>
+                </ul>
+              </div>
+
+              {/* Final High-Fidelity Prototype after User Feedback */}
+              <div className="prototype-section">
+                <h3>Final High-Fidelity Prototype</h3>
+                <p>
+                  After incorporating user feedback, we finalized a high-fidelity prototype that **reduced manual entry, 
+                  improved readability, and optimized critical task flows.** This version enhances **real-time patient handoff**, 
+                  provides **clearer medication ordering**, and minimizes cognitive load for EMTs and ER staff.
+                </p>
+                <div className="ux-images">
+                  <img src="/images/final-hifi-1.png" alt="Final High-Fidelity Prototype - Streamlined EMT Handoff" />
+                  <img src="/images/final-hifi-2.png" alt="Final High-Fidelity Prototype - Medication Ordering System" />
+                </div>
+              </div>
             </section>
 
-            <section className="next-steps">
-              <h3>What’s Next?</h3>
+            {/* Conclusion Section */}
+            <section className="conclusion">
+              <h2>Conclusion & High-Fidelity Prototype Refinements</h2>
+              <p>
+                Our final design integrates feedback from multiple testing rounds, refining the system 
+                to better meet the needs of EMTs and ER staff.
+              </p>
               <ul>
-                <li> Conduct **more usability testing** with EMTs & ER staff.</li>
-                <li> Explore **real-time patient updates** in the ER dashboard.</li>
-                <li> Integrate **voice-to-text** for hands-free EMT reporting.</li>
+                <li>A <strong>streamlined EMT handoff system</strong> with real-time updates and priority alerts.</li>
+                <li>A <strong>more flexible medication ordering system</strong> with emergency overrides.</li>
+                <li>An <strong>intuitive patient summary interface</strong> to improve hospital intake efficiency.</li>
               </ul>
+
             </section>
 
             <footer className="cta">
