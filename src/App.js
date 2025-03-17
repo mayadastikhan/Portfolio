@@ -273,7 +273,7 @@ function App() {
                     <strong> before</strong> the patient arrives.
                   </p>
                   <div className="design-image">
-                    <img src="/images/ux-flow.png" alt="Final UX Flow" />
+                    <img src="/UserFlow.png" alt="Final UX Flow" />
                   </div>
               </div>
 
