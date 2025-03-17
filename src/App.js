@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
-
+import epicIntroImg from "../src/Frame 1 (2).png";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -149,7 +149,7 @@ function App() {
 
               {/* Right Image Section */}
               <div className="case-study-image">
-                <img src="/Frame 1 (2).png" alt="Epic EMT Handoff Portal UI" />
+                <img src={epicIntroImg} alt="Epic EMT Handoff Portal UI" />
               </div>
             </section>
              <section className="overview">
