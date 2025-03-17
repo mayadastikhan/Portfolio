@@ -392,13 +392,6 @@ body.case-study-active {
   border-radius: 15px;
 }
 
-.case-study-image img {
-  width: 100% !important;
-  max-width: 600px !important;
-  height: auto !important;
-  object-fit: contain !important;
-}
-
 /* LEFT TEXT SECTION */
 .case-study-text {
   width: 50% !important;
