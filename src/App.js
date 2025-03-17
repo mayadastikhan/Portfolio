@@ -7,6 +7,7 @@ import userFlow from "../src/UserFlow (1).png";
 import UxFlowDrawn from "../src/UxFlowDrawn.png";
 import lowfi from "../src/LowFi.png";
 import lowfiMedOrder from "../src/lowFiMedOrder.png";
+import emtPortal from "../src/emtPortal.png";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -296,7 +297,7 @@ function App() {
                   <li><strong>EMT priority alerts</strong> highlight incoming critical patients.</li>
                 </ul>
                 <div className="design-image">
-                  <img src="/images/emt-portal.png" alt="EMT Handoff Portal UI" />
+                  <img src={emtPortal} alt="EMT Handoff Portal UI" />
                 </div>
               </div>
 
