@@ -11,6 +11,8 @@ import emtPortal from "../src/emtPortal.png";
 import earlyHiFi from "../src/earlyHiFi.png"
 import medOrderAlt from "../src/medOrderAlt.png"
 import emtPortalAlt from "../src/emtPortalAlt.png"
+import hiFiFinalMedOrder from "../src/Hi-Fi Prototype for UX Flow 3.png"
+
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -468,7 +470,7 @@ function App() {
                   provides clearer medication ordering, and minimizes cognitive load for EMTs and ER staff.
                 </p>
                 <div className="ux-images">
-                  <img src="/images/final-hifi-1.png" alt="Final High-Fidelity Prototype - Streamlined EMT Handoff" />
+                  <img src={hiFiFinalMedOrder} alt="Final High-Fidelity Prototype - Streamlined EMT Handoff" />
                   <img src="/images/final-hifi-2.png" alt="Final High-Fidelity Prototype - Medication Ordering System" />
                 </div>
               </div>
