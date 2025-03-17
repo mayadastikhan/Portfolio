@@ -166,7 +166,7 @@ function App() {
 
             <section className="problem-statement">
               <h2>The Problem</h2>
-              <p>Emergency room doctors need to quickly capture essential patient data 
+              <p>Emergency room doctors, nurses, and technicians need to quickly capture essential patient data 
                 during time-sensitive situations, but current documentation requirements 
                 force them to choose between thorough record-keeping and immediate patient 
                 care. This trade-off can lead to delayed treatments, increased cognitive 
@@ -209,7 +209,7 @@ function App() {
               <ul>
                 <li>Epic’s system is robust but has <strong>usability barriers</strong> that slow emergency workflows.</li>
                 <li>Login delays, complex order entry, and documentation burdens impact patient care.</li>
-                <li>Real-time data sharing and better customization training could enhance efficiency.</li>
+                <li><strong>Real-time data sharing</strong> and <strong>better customization training</strong> could enhance efficiency.</li>
               </ul>
             </div>
             </section>
@@ -244,7 +244,7 @@ function App() {
                     core functionalities of the system.
                   </p>
                   <div className="design-image">
-                    <img src="/images/personas.png" alt="User Personas" />
+                    <img src="/UserPersona (1).png" alt="User Personas" />
                   </div>
                 </div>
 
@@ -252,12 +252,15 @@ function App() {
                 <div className="lowfi-prototypes">
                   <h4>Low-Fidelity Prototypes</h4>
                   <p>
-                    We started with <strong>paper sketches</strong> and <strong>wireframes</strong>, testing different 
+                    We started with <strong>hand-drawn sketches</strong> and <strong>wireframes</strong>, testing different 
                     workflows with users. These early tests allowed us to refine the most 
                     intuitive interactions before moving to high-fidelity designs.
                   </p>
                   <div className="design-image">
-                    <img src="/images/lowfi-prototypes.png" alt="Low-Fidelity Wireframes" />
+                    <img src="/UxFlowDrawn.png" alt="Low-Fidelity Wireframes" />
+                  </div>
+                  <div className="design-image">
+                    <img src="/LowFi.png" alt="Low-Fidelity Wireframes" />
                   </div>
                 </div>
 
@@ -316,8 +319,8 @@ function App() {
                 <h2>Enhancing Emergency Workflows</h2>
                 <p>
                   Our final solution significantly reduces inefficiencies, cutting down 
-                  wasted time by over <strong>10 minutes per critical case</strong>. 
-                  This ensures that emergency teams can respond **faster and more accurately**.
+                  wasted time by over an estimated <strong>10 minutes per critical case</strong>. 
+                  This ensures that emergency teams can respond <strong>faster and more accurately</strong>.
                 </p>
               </div>
 
@@ -343,8 +346,8 @@ function App() {
                   </ul>
                   <p>
                     <strong>Final Decision:</strong> Users preferred a <strong>hybrid approach</strong>, integrating the 
-                    <strong>urgent medication bypass</strong> from Prototype A and the 
-                    <strong>real-time patient tracking board</strong> from Prototype B. 
+                    <strong> urgent medication bypass</strong> from Prototype A and the 
+                    <strong> real-time patient tracking board</strong> from Prototype B. 
                   </p>
                 </div>
               </div>
@@ -357,7 +360,7 @@ function App() {
                 <div className="improvement">
                   <h4>Streamlined Patient Intake</h4>
                   <ul>
-                    <li><strong>Quick Registration</strong> for high-severity cases, bypassing non-essential fields.</li>
+                    <li><strong>An allergy field</strong> for quick registration with bypass option</li>
                     <li><strong>Pre-filled EMT Data</strong> enabling faster handoff and room assignments.</li>
                     <li><strong>Temporary Name Generator</strong> for unidentified patients, preventing confusion.</li>
                   </ul>
@@ -378,7 +381,7 @@ function App() {
                   <h4>Enhanced EMT Tracking Board</h4>
                   <ul>
                     <li><strong>Critical patients highlighted</strong> to improve visibility for triage teams.</li>
-                    <li><strong>Direct communication with EMTs</strong> for real-time patient updates.</li>
+                    <li><strong>A portal for communication with EMTs</strong> for real-time patient updates.</li>
                     <li><strong>Severity indicators</strong> to help detect deteriorating conditions at a glance.</li>
                   </ul>
                 </div>
@@ -390,22 +393,18 @@ function App() {
                 <h3>Stakeholder Insights & Final Takeaways</h3>
                   <ul>
                     <li>
-                      <strong>ER physicians emphasized the need for immediate access</strong> to real-time 
+                    ER physicians emphasized the need for <strong> immediate access</strong> to real-time 
                       <strong> patient vitals and arrival estimates</strong>, leading to the integration 
                       of <strong>live status updates</strong> in our final design.
                     </li>
                     <li>
-                      <strong>Nurses found manual intake to be the biggest bottleneck</strong>, 
+                    Doctors found<strong> manual intake to be the biggest bottleneck</strong>, 
                       prompting the addition of <strong>automated patient pre-registration</strong> 
                       and <strong>one-tap intake confirmation</strong>.
                     </li>
+                
                     <li>
-                      <strong>EMTs wanted a more flexible way to report critical patients</strong>, 
-                      which resulted in a <strong>dedicated priority alert system</strong> that sends 
-                      <strong>urgent notifications to ER dashboards</strong>.
-                    </li>
-                    <li>
-                      <strong>Epic software trainers highlighted usability challenges</strong>, leading 
+                    Epic software trainers<strong> highlighted usability challenges</strong>, leading 
                       to <strong>simplified workflows with reduced clicks</strong> and <strong>pre-set templates</strong>.
                     </li>
                   </ul>
@@ -424,7 +423,7 @@ function App() {
               <div className="prototype-section">
                 <h3>Early High-Fidelity Prototypes</h3>
                 <p>
-                  Our first high-fidelity designs focused on **streamlining the EMT handoff process** and **simplifying medication orders**. 
+                  Our first high-fidelity designs focused on streamlining the EMT handoff process and simplifying medication orders. 
                   These designs were tested with EMTs and ER staff to evaluate usability and workflow efficiency.
                 </p>
                 <div className="ux-images">
@@ -437,7 +436,7 @@ function App() {
               <div className="prototype-section">
                 <h3>Alternative Concepts & User Preferences</h3>
                 <p>
-                  Throughout testing, we explored different **data presentation formats, navigation styles, and user inputs**. 
+                  Throughout testing, we explored different data presentation formats, navigation styles, and user inputs. 
                   Below are some alternative layouts we tested and the preferences expressed by our users.
                 </p>
                 <div className="ux-images">
@@ -445,9 +444,9 @@ function App() {
                   <img src="/images/alternative-2.png" alt="Alternative Layout - Tabbed Navigation" />
                 </div>
                 <ul>
-                  <li><strong>List-Based Handoff:</strong> EMTs found this intuitive but wanted a **quicker, more visual approach**.</li>
-                  <li><strong>Tabbed Navigation:</strong> ER staff preferred this for medication ordering, but it required **too many clicks**.</li>
-                  <li><strong>Best Practices:</strong> Users preferred **a single, streamlined interface with collapsible sections**.</li>
+                  <li><strong>List-Based Handoff:</strong> EMTs found this intuitive but wanted a **quicker, more visual approach.</li>
+                  <li><strong>Tabbed Navigation:</strong> ER staff preferred this for medication ordering, but it required too many clicks.</li>
+                  <li><strong>Best Practices:</strong> Users preferred a single, streamlined interface with collapsible sections**.</li>
                 </ul>
               </div>
 
@@ -455,9 +454,9 @@ function App() {
               <div className="prototype-section">
                 <h3>Final High-Fidelity Prototype</h3>
                 <p>
-                  After incorporating user feedback, we finalized a high-fidelity prototype that **reduced manual entry, 
-                  improved readability, and optimized critical task flows.** This version enhances **real-time patient handoff**, 
-                  provides **clearer medication ordering**, and minimizes cognitive load for EMTs and ER staff.
+                  After incorporating user feedback, we finalized a high-fidelity prototype that reduced manual entry, 
+                  improved readability, and optimized critical task flows. This version enhances real-time patient handoff, 
+                  provides clearer medication ordering, and minimizes cognitive load for EMTs and ER staff.
                 </p>
                 <div className="ux-images">
                   <img src="/images/final-hifi-1.png" alt="Final High-Fidelity Prototype - Streamlined EMT Handoff" />

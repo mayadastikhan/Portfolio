@@ -328,7 +328,6 @@ a{
   padding: 3vw 4vw !important;
   display: flex;
   flex-direction: row; /* Keep image & text side by side */
-  align-items: center;
   justify-content: space-between;
   width: 100%;
   min-height: 100vh;  /* Full viewport height */
@@ -344,7 +343,6 @@ body.case-study-active {
 .case-study-intro {
   display: flex !important;
   flex-direction: row !important;
-  align-items: center !important;
   justify-content: space-between !important; /* Ensures proper spacing */
   gap: 30px !important;
   margin-bottom: 40px !important;
@@ -407,7 +405,6 @@ body.case-study-active {
   text-align: left !important;
   display: flex !important;
   flex-direction: column !important;
-  justify-content: center !important;
   gap: 15px !important;
   padding-right: 5% !important;
 }
@@ -629,41 +626,6 @@ body.case-study-active {
 }
 
 
-  .case-study-text h1 {
-    font-size: 3.5vw;
-  }
-
-  .case-study-text h2 {
-    font-size: 2.5vw;
-  }
-
-  .case-study-text p {
-    font-size: 2vw;
-  }
-
-  .case-study-image img {
-    max-width: 70%;
-    max-height: 50vw;
-  }
-
-  .case-study-intro {
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .case-study-text {
-    width: 100%;
-    padding-right: 0;
-    align-items: center;
-  }
-
-  .case-study-image {
-    width: 100%;
-    justify-content: center;
-    margin-top: 2vw;
-  }
-
 /* Mobile View */
 @media (max-width: 600px) {
   .case-study-intro,
@@ -674,8 +636,9 @@ body.case-study-active {
   .impact,
   .ux-flow-evolution,
   .conclusion,
-  .design-intro {
-    padding: 2vw 3vw;  /* Even smaller padding for small screens */
+  .design-intro,
+  .key-takeaways {
+    padding: 2vw 3vw !important;  /* Even smaller padding for small screens */
   }
 
   .case-study-text h1 {
@@ -1146,10 +1109,13 @@ body.case-study-active {
 
 @media (max-width: 600px) {
   .conclusion ul,
-  .design-feature{
-    width: 90%;  /* Ensures it scales proportionally */
-    padding: 3vw;
-    max-width: none;  /* Prevents fixed width issues */
+  .design-feature,
+  .key-takeaways,
+  .ux-testing,
+  .key-improvements{
+    width: 90% !important;  /* Ensures it scales proportionally */
+    padding: 3vw !important;
+    max-width: none !important;  /* Prevents fixed width issues */
   }
 
   .conclusion h2,
