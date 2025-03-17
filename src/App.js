@@ -21,7 +21,7 @@ function App() {
               <hr className="divider" />
               <div className="case-study row-left">
                 <img
-                  src="Screenshot 2024-12-11 at 9.07.02 PM.png"
+                  src="/EpicCaseStudyImg.png"
                   alt="Foot Scale Project Design"
                   className="case-study-image"
                 />
@@ -149,7 +149,7 @@ function App() {
 
               {/* Right Image Section */}
               <div className="case-study-image">
-                <img src="/Frame 1 (2).png" alt="Epic EMT Handoff Portal UI" />
+                <img src="public/Frame 1 (2).png" alt="Epic EMT Handoff Portal UI" />
               </div>
             </section>
              <section className="overview">
