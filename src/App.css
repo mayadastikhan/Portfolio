@@ -429,10 +429,10 @@ body.case-study-active {
 }
 
 .case-study-image img {
-  width: 100% !important;
-  max-width: 800px !important;
-  height: auto !important;
-  object-fit: contain !important;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  object-fit: contain;
 }
 
 /* RESPONSIVE DESIGN */
@@ -1267,11 +1267,7 @@ body.case-study-active {
   margin-left: auto;
   margin-right: auto;
 }
-.case-study-image img {
-  display: block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
+
 
 .nav-button.feline-research:hover {
   color: #0073e6;
