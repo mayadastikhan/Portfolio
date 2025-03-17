@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import './App.css';
 import epicIntroImg from "../src/Frame 1 (2).png";
+import epicCaseStudyImg from "../src/EpicCaseStudyImg.png";
+import userPersona from "../src/UserPersona (1).png";
+import userFlow from "../src/UserFlow (1).png";
+import UxFlowDrawn from "../src/UxFlowDrawn.png";
+import lowfi from "../src/LowFi.png";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -21,7 +26,7 @@ function App() {
               <hr className="divider" />
               <div className="case-study row-left">
                 <img
-                  src="/EpicCaseStudyImg.png"
+                  src={epicCaseStudyImg}
                   alt="Foot Scale Project Design"
                   className="case-study-image"
                 />
@@ -244,7 +249,7 @@ function App() {
                     core functionalities of the system.
                   </p>
                   <div className="design-image">
-                    <img src="/UserPersona (1).png" alt="User Personas" />
+                    <img src={userPersona} alt="User Personas" />
                   </div>
                 </div>
 
@@ -257,10 +262,10 @@ function App() {
                     intuitive interactions before moving to high-fidelity designs.
                   </p>
                   <div className="design-image">
-                    <img src="/UxFlowDrawn.png" alt="Low-Fidelity Wireframes" />
+                    <img src={UxFlowDrawn} alt="Low-Fidelity Wireframes" />
                   </div>
                   <div className="design-image">
-                    <img src="/LowFi.png" alt="Low-Fidelity Wireframes" />
+                    <img src={lowfi} alt="Low-Fidelity Wireframes" />
                   </div>
                 </div>
 
@@ -273,7 +278,7 @@ function App() {
                     <strong> before</strong> the patient arrives.
                   </p>
                   <div className="design-image">
-                    <img src="/UserFlow.png" alt="Final UX Flow" />
+                    <img src={userFlow} alt="Final UX Flow" />
                   </div>
               </div>
 
