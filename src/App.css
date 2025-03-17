@@ -437,41 +437,31 @@ body.case-study-active {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 900px) {
-  .case-study {
-    flex-direction: column !important; /* Stack on smaller screens */
+  .case-study-intro {
+    flex-direction: column !important; /* Stack elements */
+    align-items: center !important;
     text-align: left !important;
-    width: 85% !important;
-    padding: 3vw !important;
-    max-width: none !important;
   }
 
   .case-study-text {
     width: 100% !important;
     padding-right: 0 !important;
-    align-items: flex-start !important;
   }
 
   .case-study-image {
     width: 100% !important;
-    justify-content: center !important;
+    order: 2 !important; /* Moves the image below text */
     margin-top: 2vw !important;
   }
 
-  .case-study-text h1 {
-    font-size: 4vw !important;
-  }
-
-  .case-study-text h2 {
-    font-size: 3vw !important;
-  }
-
-  .case-study-text p {
-    font-size: 2vw !important;
+  .case-study-image img {
+    max-width: 100% !important;
+    height: auto !important;
   }
 }
 
 @media (max-width: 600px) {
-  .case-study {
+  .case-study-intro {
     width: 90% !important;
     padding: 3vw !important;
   }
@@ -489,7 +479,8 @@ body.case-study-active {
   }
 
   .case-study-image {
-    order: 2 !important; /* Moves the image below text */
+    width: 100% !important;
+    order: 2 !important; /* Ensures the image is below */
     margin-top: 3vw !important;
   }
 
