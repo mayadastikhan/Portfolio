@@ -8,6 +8,7 @@ import UxFlowDrawn from "../src/UxFlowDrawn.png";
 import lowfi from "../src/LowFi.png";
 import lowfiMedOrder from "../src/lowFiMedOrder.png";
 import emtPortal from "../src/emtPortal.png";
+import earlyHiFi from "../src/earlyHiFi.png"
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -434,8 +435,7 @@ function App() {
                   These designs were tested with EMTs and ER staff to evaluate usability and workflow efficiency.
                 </p>
                 <div className="ux-images">
-                  <img src="/images/early-hifi-1.png" alt="Early High-Fidelity Prototype - EMT Portal" />
-                  <img src="/images/early-hifi-2.png" alt="Early High-Fidelity Prototype - Medication Orders" />
+                  <img src={earlyHiFi} alt="Early High-Fidelity Prototype - Medication Orders" />
                 </div>
               </div>
 
