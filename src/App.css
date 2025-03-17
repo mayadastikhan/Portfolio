@@ -383,14 +383,6 @@ body.case-study-active {
   color: #333 !important;
   line-height: 1.6 !important;
 }
-.case-study-image
- {
-  width: 50%;
-  min-width: 300px;
-  height: auto;
-  transition: transform 0.3s ease;
-  border-radius: 15px;
-}
 
 /* LEFT TEXT SECTION */
 .case-study-text {
