@@ -498,7 +498,7 @@ function App() {
             </section>
 
             <footer className="cta">
-              <p>Want to see it in action? <a href="https://www.figma.com/proto/bAuQXehyU77uBjndiSqJEQ/Designs?node-id=78-320&t=CI5ObZLVk6jSCPYv-1">Check out the Figma Prototype</a></p>
+              <p>Want to see it in action? <a href="https://www.figma.com/proto/bAuQXehyU77uBjndiSqJEQ/Designs?node-id=258-3807&p=f&t=UqeeXahc4ghnVYLN-1&scaling=min-zoom&content-scaling=fixed&page-id=162%3A489&starting-point-node-id=258%3A3807&show-proto-sidebar=1">Check out the Figma Prototype</a></p>
             </footer>
             <button onClick={() => setActiveSection("home")} className="back-button">
               Back to Case Studies →
