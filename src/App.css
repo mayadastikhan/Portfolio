@@ -484,13 +484,13 @@ body.case-study-active {
   }
 
   .case-study-intro .case-study-image {
-    width: 80% !important;
+    width: 90px !important;
     order: 2 !important; /* Ensures only the intro image moves below */
     margin-top: 3vw !important;
   }
 
   .case-study-intro .case-study-image img {
-    max-width: 80% !important;
+    max-width: 90px !important;
   }
 }
 .research {
