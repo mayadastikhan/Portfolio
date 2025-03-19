@@ -466,11 +466,19 @@ body.case-study-active {
 
 @media (max-width: 600px) {
   .case-study-intro {
-    width: 90% !important;
-    padding: 10vw 5vw 5vw; /* Increased top padding */
-    margin-top: 5vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 90% !important; 
+    padding: 10vw 5vw 5vw; /* Ensures top and side padding */
+    margin: 5vw auto; /* Centers the section */
+    display: flex;
+    flex-direction: column !important; /* Stack elements */
+    align-items: center !important;
+    text-align: left !important;
+  }
+
+  /* Case Study Text */
+  .case-study-intro .case-study-text {
+    width: 100% !important;
+    padding: 0 5vw !important; /* Adds space to the left and right */
   }
 
   .case-study-intro .case-study-text h1 {
@@ -485,14 +493,21 @@ body.case-study-active {
     font-size: 2.5vw !important;
   }
 
+  /* Case Study Image */
   .case-study-intro .case-study-image {
-    width: 100% !important;
-    order: 2 !important; /* Ensures only the intro image moves below */
-    margin-top: 3vw !important;
+    width: 100% !important; /* Ensures full-width scaling */
+    max-width: 400px !important; /* Limits excessive growth */
+    order: 2 !important; /* Moves the image below the text */
+    margin: 5vw auto 0 !important; /* Adds spacing and centers */
+    display: flex !important;
+    justify-content: center !important;
   }
 
   .case-study-intro .case-study-image img {
-    max-width: 300px !important;
+    width: 100% !important; /* Makes it responsive */
+    max-width: 400px !important; /* Prevents excessive scaling */
+    height: auto !important;
+    border-radius: 10px !important; /* Adds rounded corners */
   }
 }
 .research {
