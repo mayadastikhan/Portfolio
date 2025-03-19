@@ -463,6 +463,33 @@ body.case-study-active {
     height: auto !important;
   }
 }
+@media (max-width: 600px) {
+  .case-study-intro {
+    padding-top: 12vw !important; /* Extra space for the nav */
+    flex-direction: column !important; /* Stack text & image */
+    align-items: center !important;
+    text-align: left !important;
+  }
+
+  .case-study-intro .case-study-text {
+    width: 100% !important;
+    padding-right: 0 !important;
+    
+  }
+
+  .case-study-intro .case-study-image {
+    width: 100% !important;
+    order: 2 !important; /* Moves only the image inside case-study-intro below */
+    margin-top: 2vw !important;
+    max-width: 600px !important;
+    padding: 12vw 5vw 5vw !important; /* More top padding for visibility */
+  }
+
+  .case-study-intro .case-study-image img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
 
 .research {
   width: 70%;
