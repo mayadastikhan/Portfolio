@@ -500,6 +500,7 @@ body.case-study-active {
     order: 2 !important; /* Moves the image below the text */
     margin: 5vw auto 0 !important; /* Adds spacing and centers */
     display: flex !important;
+    flex-direction: column !important;
     justify-content: center !important;
   }
 
