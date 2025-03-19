@@ -483,6 +483,7 @@ body.case-study-active {
     margin-top: 2vw !important;
     max-width: 600px !important;
     padding: 12vw 5vw 5vw !important; /* More top padding for visibility */
+    margin: 12vw 5vw 5vw !important;
   }
 
   .case-study-intro .case-study-image img {
@@ -630,9 +631,11 @@ body.case-study-active {
 
   .case-study-text p {
     font-size: 2.5vw;
+    padding-bottom: 0px;
   }
 
   .case-study-image img {
+    padding-top: 0px;
     max-width: 80%;
   }
 }
