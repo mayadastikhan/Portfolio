@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
 }
 .home-section,
 .about-section {
-  padding-top: 100px; /* Adjust based on the nav bar height */
+  padding-top: 5rem; /* Adjust based on the nav bar height */
 }
 .nav-button {
   font-family: 'Magilio', sans-serif;
@@ -254,7 +254,7 @@ body::-webkit-scrollbar {
   width: 85%;
   max-width: 800px;
   padding: 4rem; 
-  -top: 0px;
+  padding-top: 7rem;
 
 }
 .about-section .nameIntro{
@@ -290,7 +290,8 @@ body::-webkit-scrollbar {
   line-height: 1.6; 
 }
 .about-section .p2{
-  margin-bottom: 40px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 a{
   text-decoration: none !important;
