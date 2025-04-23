@@ -830,7 +830,6 @@ body.case-study-active {
     padding: 3vw;
     max-width: none;  /* Prevents fixed width issues */
   }
-
   .impact h2,
   .medication-ordering h2,
   .ux-testing h3,
@@ -1068,6 +1067,10 @@ body.case-study-active {
     width: 90% important!;  /* Ensures it scales proportionally */
     padding: 3vw important!;
     max-width: none important!;  /* Prevents fixed width issues */
+  }
+
+  .case-study-text h1{
+    font-size: 6vw !important;
   }
 
   .conclusion h2, 
