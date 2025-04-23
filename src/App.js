@@ -594,14 +594,12 @@ function App() {
               <img
                   src="LOWFI (1).png"
                   alt="Energy Ave Game Low Fidelity"
-                  className="case-study-image"
                 />
               </div>
               <div className="design-image">
               <img
                   src="HIFI.png"
                   alt="Energy Ave Game High Fidelity"
-                  className="case-study-image"
                 />
               </div>
             </section>
