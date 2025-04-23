@@ -63,10 +63,10 @@ function App() {
                     ENERGY AVE
                   </a>
                   <p>02 - UX RESEARCH - UX/UI DESIGN - FIGMA PROTOTYPING - GAMEDEV</p>
-                  <p className="description">Designed to make walking engaging and rewarding with incentives.</p>
+                  <p className="description">An interactive educational game that teaches elementary-aged students energy conservation habits through gamified tasks, immediate feedback, and user-centered design.</p>
                 </div>
                 <img
-                  src="Screenshot 2024-12-11 at 9.14.55 PM.png"
+                  src="ENERGY AVE COVER.png"
                   alt="Energy Ave Game"
                   className="case-study-image"
                 />
@@ -74,8 +74,8 @@ function App() {
 
               <div className="case-study row-left">
                 <img
-                  src="Component 2.png"
-                  alt="Experimental Design Case Study"
+                  src="Screenshot 2024-12-11 at 9.14.55 PM.png"
+                  alt="Stepify Case Study"
                   className="case-study-image"
                 />
                 <div className="case-study-details">
@@ -88,7 +88,7 @@ function App() {
                   STEPIFY
                 </a>
                   <p>03 - UX RESEARCH - UX/UI DESIGN - UX WRITING</p>
-                  <p className="description">An observational experiment researching the influence of time on the behavior of felines.</p>
+                  <p className="description">Designed to make walking engaging and rewarding with incentives.</p>
                 </div>
               </div>
               <div className="case-study row-right">
