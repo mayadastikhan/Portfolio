@@ -528,7 +528,6 @@ function App() {
                 <img
                     src="ENERGY AVE COVER.png"
                     alt="Energy Ave Game"
-                    className="case-study-image"
                 />
               </div>
             </section>

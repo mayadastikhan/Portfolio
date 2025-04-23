@@ -427,8 +427,8 @@ body.case-study-active {
 }
 
 .case-study-image img {
-  width: 100%;
-  max-width: 800px;
+  width: 100% !important;
+  max-width: 800px; 
   height: auto;
   object-fit: contain;
 }
