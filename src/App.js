@@ -55,15 +55,14 @@ function App() {
               <div className="case-study row-right">
                 <div className="case-study-details">
                 <a
-                href="https://www.figma.com/deck/CKtT9HDylheCMWEVbvyl7W/Stepify-CSE-170-Final-Project?node-id=1-27&t=s8WnnKFesDFasWmq-1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="case-study-title"
-              >
-                    ENERGY AVE
+                    href="#"
+                    onClick={() => setActiveSection("caseStudy2")}
+                    className="case-study-title"
+                  >
+                    ENERGY AVE 
                   </a>
                   <p>02 - UX RESEARCH - UX/UI DESIGN - FIGMA PROTOTYPING - GAMEDEV</p>
-                  <p className="description">An interactive educational game that teaches elementary-aged students energy conservation habits through gamified tasks, immediate feedback, and user-centered design.</p>
+                  <p className="description">An interactive educational game that teaches energy conservation habits through gamified tasks, immediate feedback, and user-centered design.</p>
                 </div>
                 <img
                   src="ENERGY AVE COVER.png"
@@ -510,8 +509,131 @@ function App() {
       case "caseStudy2":
         return (
           <div className="case-study-page">
-            <h1>Case Study: Blended Communities</h1>
-            <p>Details about Blended Communities case study...</p>
+            <section className="case-study-intro">
+              <div className="case-study-text">
+                <h1>Energy Avenue</h1>
+                <h2 className="subtitle">Gamifying Energy Conservation for Kids</h2>
+                <p>
+                  We partnered with PlanetFlip to develop an interactive, educational game that
+                  encourages elementary-aged students to adopt energy-saving habits. Through
+                  engaging design and gamified feedback, Energy Avenue bridges the gap between
+                  awareness and action.
+                </p>
+              </div>
+              <div className="case-study-image">
+              <img
+                  src="ENERGY AVE COVER.png"
+                  alt="Energy Ave Game"
+                  className="case-study-image"
+              />
+              </div>
+            </section>
+      
+            <section className="overview">
+              <h2>Overview</h2>
+              <p>
+                Climate education often lacks the interactivity needed to drive behavioral change,
+                especially in younger audiences. Our mission was to design a fun, engaging game
+                that teaches players simple, real-world actions—like unplugging electronics or
+                turning off lights—to build sustainable habits through repetition and feedback.
+              </p>
+            </section>
+      
+            <section className="problem-statement">
+              <h2>The Problem</h2>
+              <p>
+                Despite increasing concern about climate change, many young students aren’t
+                equipped with the tools to take action. Traditional educational methods fall short
+                in fostering long-term engagement and habit formation around energy conservation.
+              </p>
+            </section>
+      
+            <section className="research-intro">
+              <h2>Research & Insights</h2>
+              <p>
+                To guide our design, we interviewed sustainability educators and analyzed existing
+                educational games. We discovered a need for more engaging, visually-driven tools
+                tailored to younger audiences that also provide immediate, meaningful feedback.
+              </p>
+              <div className="stakeholder">
+                <h3>Educator Interviews</h3>
+                <ul>
+                  <li>Interactive tools help students retain lessons better than lectures.</li>
+                  <li>Most existing climate games are either too passive or lack real-life relevance.</li>
+                  <li>Teachers want tools that are classroom-friendly and easy to integrate.</li>
+                </ul>
+              </div>
+              <div className="stakeholder">
+                <h3>Game Analysis Takeaways</h3>
+                <ul>
+                  <li>Repetitive mechanics reduce long-term engagement.</li>
+                  <li>Effective games combine simplicity with reward systems.</li>
+                  <li>Visual feedback and mini goals improve player retention.</li>
+                </ul>
+              </div>
+            </section>
+      
+            <section className="research-intro">
+              <h2>The Solution: Energy Avenue</h2>
+              <p>
+                Players explore rooms in a home and tap on household items to identify energy
+                waste. Each correct action earns points and reveals fun facts about energy
+                conservation, creating an intuitive, rewarding experience.
+              </p>
+              <div className="stakeholder">
+                <h3>UX Design Process</h3>
+                <p>
+                  We used a user-centered, iterative approach involving low-fidelity wireframes,
+                  high-fidelity prototypes in Figma, and final development in Construct3.
+                </p>
+              </div>
+              <div className="design-image">
+              <img
+                  src="LOWFI (1).png"
+                  alt="Energy Ave Game Low Fidelity"
+                  className="case-study-image"
+                />
+              </div>
+              <div className="design-image">
+              <img
+                  src="HIFI.png"
+                  alt="Energy Ave Game High Fidelity"
+                  className="case-study-image"
+                />
+              </div>
+            </section>
+      
+            <section className="impact">
+              <h2>Impact & User Testing</h2>
+              <p>
+                During multiple rounds of user testing with students and community members,
+                Energy Avenue was praised for its visuals and simplicity. Feedback led us to
+                implement a point-based reward system, smoother transitions, and refined tutorials.
+              </p>
+              <div className="stakeholder">
+                <h3>Key Takeaways</h3>
+                <ul>
+                  <li>Users found the visuals fun and the learning intuitive.</li>
+                  <li>Points and challenge levels improved replayability.</li>
+                  <li>Simple UI encouraged independent exploration.</li>
+                </ul>
+              </div>
+            </section>
+      
+            <section className="conclusion">
+              <h2>Conclusion & Next Steps</h2>
+              <p>
+                Energy Avenue demonstrates the power of gamified learning. Moving forward, we
+                aim to integrate the game into classrooms, add difficulty levels, and expand to
+                other sustainability topics. With stakeholder partnerships, we hope to scale the
+                game for wider impact.
+              </p>
+            </section>
+      
+            <footer className="cta">
+              <p>Want to see it in action? <a href="https://aquamarine-faloodeh-96404d.netlify.app/">View Energy Ave Here</a></p>
+            </footer>
+      
             <button onClick={() => setActiveSection("home")} className="back-button">
               Back to Case Studies →
             </button>
