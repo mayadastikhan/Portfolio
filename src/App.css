@@ -186,7 +186,7 @@ body::-webkit-scrollbar {
 
 .case-study-image-intro {
   width: 50%;
-  min-width: 300px;
+  min-width: 100px;
   height: auto;
   transition: transform 0.3s ease;
   border-radius: 15px;
