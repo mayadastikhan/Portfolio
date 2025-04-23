@@ -51,6 +51,7 @@ function App() {
                   <p className="description">Enhancing Epic’s medication ordering system to streamline workflows, reduce errors, and improve efficiency in emergency care.</p>
                 </div>
               </div>
+            
               <div className="case-study row-right">
                 <div className="case-study-details">
                 <a
@@ -59,17 +60,18 @@ function App() {
                 rel="noopener noreferrer"
                 className="case-study-title"
               >
-                    STEPIFY
+                    ENERGY AVE
                   </a>
-                  <p>02 - UX RESEARCH - UX/UI DESIGN - UX WRITING</p>
+                  <p>02 - UX RESEARCH - UX/UI DESIGN - FIGMA PROTOTYPING - GAMEDEV</p>
                   <p className="description">Designed to make walking engaging and rewarding with incentives.</p>
                 </div>
                 <img
                   src="Screenshot 2024-12-11 at 9.14.55 PM.png"
-                  alt="Stepify Case Study"
+                  alt="Energy Ave Game"
                   className="case-study-image"
                 />
               </div>
+
               <div className="case-study row-left">
                 <img
                   src="Component 2.png"
@@ -78,14 +80,14 @@ function App() {
                 />
                 <div className="case-study-details">
                 <a 
-                  href="https://docs.google.com/document/d/1MhplTLdrUugZEVedmhA_2ypwYyARs7B58ezdcJgwjY4/edit?usp=sharing" 
+                  href="https://www.figma.com/deck/CKtT9HDylheCMWEVbvyl7W/Stepify-CSE-170-Final-Project?node-id=1-27&t=s8WnnKFesDFasWmq-1"
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="nav-button feline-research"
                 >
-                  FELINE BEHAVIOR RESEARCH
+                  STEPIFY
                 </a>
-                  <p>03 - EXPERIMENTAL DESIGN - OBSERVATIONAL RESEARCH</p>
+                  <p>03 - UX RESEARCH - UX/UI DESIGN - UX WRITING</p>
                   <p className="description">An observational experiment researching the influence of time on the behavior of felines.</p>
                 </div>
               </div>
