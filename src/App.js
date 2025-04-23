@@ -510,8 +510,9 @@ function App() {
         return (
           <div className="case-study-page">
             <section className="case-study-intro">
+              {/* Left Content Section */}
               <div className="case-study-text">
-                <h1>Energy Avenue</h1>
+                <h1>Energy Ave</h1>
                 <h2 className="subtitle">Gamifying Energy Conservation for Kids</h2>
                 <p>
                   We partnered with PlanetFlip to develop an interactive, educational game that
@@ -519,16 +520,19 @@ function App() {
                   engaging design and gamified feedback, Energy Avenue bridges the gap between
                   awareness and action.
                 </p>
-              </div>
+                </div>
+            
+
+              {/* Right Image Section */}
               <div className="case-study-image">
-              <img
-                  src="ENERGY AVE COVER.png"
-                  alt="Energy Ave Game"
-                  className="case-study-image"
-              />
+                <img
+                    src="ENERGY AVE COVER.png"
+                    alt="Energy Ave Game"
+                    className="case-study-image"
+                />
               </div>
             </section>
-      
+             
             <section className="overview">
               <h2>Overview</h2>
               <p>
