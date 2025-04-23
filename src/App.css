@@ -184,7 +184,7 @@ body::-webkit-scrollbar {
   height: auto;
 }
 
-.case-study-image {
+.case-study-image-intro {
   width: 50%;
   min-width: 300px;
   height: auto;
@@ -192,7 +192,7 @@ body::-webkit-scrollbar {
   border-radius: 15px;
 }
 
-.case-study-image:hover {
+.case-study-image-intro:hover {
   transform: scale(1.05);
 }
 

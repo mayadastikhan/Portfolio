@@ -37,7 +37,7 @@ function App() {
                 <img
                   src={epicCaseStudyImg}
                   alt="Foot Scale Project Design"
-                  className="case-study-image"
+                  className="case-study-image-intro"
                 />
                 <div className="case-study-details">
                   <a
@@ -67,7 +67,7 @@ function App() {
                 <img
                   src="ENERGY AVE COVER.png"
                   alt="Energy Ave Game"
-                  className="case-study-image"
+                  className="case-study-image-intro"
                 />
               </div>
 
@@ -75,7 +75,7 @@ function App() {
                 <img
                   src="Screenshot 2024-12-11 at 9.14.55 PM.png"
                   alt="Stepify Case Study"
-                  className="case-study-image"
+                  className="case-study-image-intro"
                 />
                 <div className="case-study-details">
                 <a 
@@ -106,7 +106,7 @@ function App() {
                 <img
                   src="Component 3 (3).png"
                   alt="Refind Case Study"
-                  className="case-study-image"
+                  className="case-study-image-intro"
                 />
               </div>
             </div>
