@@ -475,7 +475,6 @@ body.case-study-active {
   .case-study-intro .case-study-image {
     width: 100% !important;
     order: 2 !important; /* Moves only the image inside case-study-intro below */
-    margin-top: 2vw !important;
     max-width: 600px !important;
     padding: 12vw 5vw 5vw !important; /* More top padding for visibility */
     margin: 12vw 5vw 5vw !important;
