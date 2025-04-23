@@ -568,7 +568,7 @@ body.case-study-active {
 }
 
 /* LIST STYLE */
-.key-takeaways ul {
+.key-takeaways ul{
   padding-left: 2vw;
 }
 
@@ -595,7 +595,8 @@ body.case-study-active {
     font-size: .5vw;
   }
 
-  .key-takeaways li {
+  .key-takeaways li,
+  .stakeholder li {
     font-size: 1.5vw;
   }
 }
@@ -824,7 +825,7 @@ body.case-study-active {
   .ux-testing,
   .key-improvements,
   .key-takeaways,
-  .prototype-section,{
+  .prototype-section{
     width: 90%;
     padding: 3vw;
     max-width: none;  /* Prevents fixed width issues */
