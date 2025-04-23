@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.afc4de64.css",
-    "main.js": "/Portfolio/static/js/main.2885b233.js",
+    "main.css": "/Portfolio/static/css/main.30a50ac5.css",
+    "main.js": "/Portfolio/static/js/main.a095382b.js",
     "static/js/488.f30ea4ab.chunk.js": "/Portfolio/static/js/488.f30ea4ab.chunk.js",
     "static/media/Hi-Fi Prototype for UX Flow 3.png": "/Portfolio/static/media/Hi-Fi Prototype for UX Flow 3.7db8bd90df632071b6dc.png",
     "static/media/UserFlow (1).png": "/Portfolio/static/media/UserFlow (1).777be61c58b64c814eff.png",
@@ -24,12 +24,12 @@
     "static/media/magilioregular-8mxvg-webfont.woff": "/Portfolio/static/media/magilioregular-8mxvg-webfont.e96d61a3fb58c436189a.woff",
     "static/media/magilioregular-8mxvg-webfont.woff2": "/Portfolio/static/media/magilioregular-8mxvg-webfont.0de68296b4323ca5d266.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.afc4de64.css.map": "/Portfolio/static/css/main.afc4de64.css.map",
-    "main.2885b233.js.map": "/Portfolio/static/js/main.2885b233.js.map",
+    "main.30a50ac5.css.map": "/Portfolio/static/css/main.30a50ac5.css.map",
+    "main.a095382b.js.map": "/Portfolio/static/js/main.a095382b.js.map",
     "488.f30ea4ab.chunk.js.map": "/Portfolio/static/js/488.f30ea4ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afc4de64.css",
-    "static/js/main.2885b233.js"
+    "static/css/main.30a50ac5.css",
+    "static/js/main.a095382b.js"
   ]
 }
