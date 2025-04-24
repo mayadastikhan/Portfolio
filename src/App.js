@@ -229,9 +229,9 @@ function App() {
             </div>
             </section>
 
-            <section className="design">
+            
               {/* Title Section */}
-              <div className="design-intro">
+              <div className="research-intro">
                 <h2>The Solution: A Smarter EMT Handoff Portal</h2>
                 <p>
                   We redesigned the <strong>EMT-to-ER patient handoff</strong> to improve speed, 
@@ -240,7 +240,7 @@ function App() {
                   <strong> seamless</strong> and <strong>intuitive</strong> solution for EMTs and hospital staff.
                 </p>
               </div>
-
+              <section className="design">
               {/* UX Design Process */}
               <div className="ux-process">
                 <h3>UX Design Process</h3>

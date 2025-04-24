@@ -1049,7 +1049,9 @@ body.case-study-active {
   margin-right: auto;
 }
 
-.conclusion li {
+.conclusion li,
+.stakeholder li,
+.key-takeaways li {
   font-size: 1.2vw;
   line-height: 1.6;
   margin-bottom: 10px;
@@ -1063,7 +1065,8 @@ body.case-study-active {
   .research-intro,
   .design-intro,
   .design-feature,
-  .case-study-intro {
+  .case-study-intro
+  .design {
     width: 90% important!;  /* Ensures it scales proportionally */
     padding: 3vw important!;
     max-width: none important!;  /* Prevents fixed width issues */
@@ -1078,13 +1081,15 @@ body.case-study-active {
   .problem-statement h2,
   .research-intro h2,
   .design-intro h2,
-  .case-study-text h2 {
+  .case-study-text h2,
+  .design h2{
     font-size: 4vw !important;
   }
 
   .conclusion p,
   .conclusion li,
   .overview p,
+  .design p
   .problem-statement p,
   .research-intro p,
   .design-intro p,
@@ -1101,7 +1106,8 @@ body.case-study-active {
   .design-feature,
   .key-takeaways,
   .ux-testing,
-  .key-improvements{
+  .key-improvements,
+  .design ul{
     width: 90% !important;  /* Ensures it scales proportionally */
     padding: 3vw !important;
     max-width: none !important;  /* Prevents fixed width issues */
@@ -1112,7 +1118,9 @@ body.case-study-active {
   .problem-statement h2,
   .research-intro h2,
   .design-intro h2,
-  .case-study-text h2 {
+  .case-study-text h2,
+  .design h2,
+  .research h2 {
     font-size: 5vw !important;
   }
 
@@ -1122,7 +1130,9 @@ body.case-study-active {
   .problem-statement p,
   .research-intro p,
   .design-intro p,
-  .case-study-text p {
+  .case-study-text p,
+  .design p,
+  .research p {
     font-size: 2.5vw !important;
   }
 }
