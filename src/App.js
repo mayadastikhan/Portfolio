@@ -15,7 +15,6 @@ import hiFiFinalMedOrder from "../src/Hi-Fi Prototype for UX Flow 3.png"
 import hiFiFinalEmtPortal from "../src/EMT Portal Alternative Screens.png"
 import beforeAfter1 from "../src/Before and After Stories 1.png"
 import beforeAfter2 from "../src/Before and After Stories 2.png"
-import { useEffect } from "react";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -147,10 +146,7 @@ function App() {
             </div>
          );
       case "caseStudy1":
-        useEffect(() => {
-          window.scrollTo(0, 0);
-        }, []);
-      
+        window.scrollTo(0, 0);
         return (
           <div className="case-study-page">
             <section className="case-study-intro">
@@ -512,9 +508,7 @@ function App() {
           </div>
         );
       case "caseStudy2":
-        useEffect(() => {
-          window.scrollTo(0, 0);
-        }, []);      
+        window.scrollTo(0, 0);     
         return (
           <div className="case-study-page">
             <section className="case-study-intro">
