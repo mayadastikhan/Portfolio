@@ -15,9 +15,12 @@ import hiFiFinalMedOrder from "../src/Hi-Fi Prototype for UX Flow 3.png"
 import hiFiFinalEmtPortal from "../src/EMT Portal Alternative Screens.png"
 import beforeAfter1 from "../src/Before and After Stories 1.png"
 import beforeAfter2 from "../src/Before and After Stories 2.png"
-
+import { useEffect } from "react"; // make sure both are imported
 function App() {
   const [activeSection, setActiveSection] = useState("home");
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [activeSection])
 
   const renderSection = () => {
     switch (activeSection) {
@@ -146,7 +149,6 @@ function App() {
             </div>
          );
       case "caseStudy1":
-        window.scrollTo(0, 0);
         return (
           <div className="case-study-page">
             <section className="case-study-intro">
@@ -508,7 +510,6 @@ function App() {
           </div>
         );
       case "caseStudy2":
-        window.scrollTo(0, 0);     
         return (
           <div className="case-study-page">
             <section className="case-study-intro">
