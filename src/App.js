@@ -15,7 +15,6 @@ import hiFiFinalMedOrder from "../src/Hi-Fi Prototype for UX Flow 3.png"
 import hiFiFinalEmtPortal from "../src/EMT Portal Alternative Screens.png"
 import beforeAfter1 from "../src/Before and After Stories 1.png"
 import beforeAfter2 from "../src/Before and After Stories 2.png"
-import resume from "../src/MayaKhanResume2025.pdf"
 import { useEffect } from "react"; // make sure both are imported
 function App() {
   const [activeSection, setActiveSection] = useState("home");
