@@ -87,12 +87,13 @@ function App() {
                   rel="noopener noreferrer" 
                   className="nav-button feline-research"
                 >
-                  STEPIFY
-                </a>
+                    STEPIFY
+                  </a>
                   <p>03 - UX RESEARCH - UX/UI DESIGN - UX WRITING</p>
                   <p className="description">Designed to make walking engaging and rewarding with incentives.</p>
                 </div>
               </div>
+
               <div className="case-study row-right">
                 <div className="case-study-details">
                   <a
