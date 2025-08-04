@@ -90,7 +90,7 @@ function App() {
                     STEPIFY
                   </a>
                   <p>03 - UX RESEARCH - UX/UI DESIGN - UX WRITING</p>
-                  <p className="description">Designed to make walking engaging and rewarding with incentives.</p>
+                  <p className="description">A prototype for an app designed to make walking engaging and rewarding with incentives through gamified tasks.</p>
                 </div>
               </div>
 
@@ -105,7 +105,7 @@ function App() {
                     REFIND
                   </a>
                   <p>04 - PITCH - UX RESEARCH - UX/UI DESIGN </p>
-                  <p className="description">Personal project to develop an app combining machine learning, fashion, and sustainability.</p>
+                  <p className="description">Personal project, developing an app that combinines machine learning, fashion, and sustainability through user research and intuitive design.</p>
                 </div>
                 <img
                   src="Component 3 (3).png"
