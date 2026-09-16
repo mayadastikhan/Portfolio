@@ -644,26 +644,7 @@ function App() {
             </button>
           </div>
         );
-        case "caseStudy3":
-          return (
-            <div className="case-study-page">
-              <h1>Case Study: Time of Day & It's Influence on Feline Behavior</h1>
-              <p>Details about Blended Communities case study...</p>
-              <button onClick={() => setActiveSection("home")} className="back-button">
-                Back to Case Studies →
-              </button>
-            </div>
-          );
-          case "caseStudy4":
-          return (
-            <div className="case-study-page">
-              <h1>Case Study: Refind</h1>
-              <p>Details about Blended Communities case study...</p>
-              <button onClick={() => setActiveSection("home")} className="back-button">
-                Back to Case Studies →
-              </button>
-            </div>
-          );
+        
       default:
         return <h1>Select a Section</h1>;
     }
